@@ -325,10 +325,10 @@ body {
   }
   
   #fencingGroup {
-    width: 18rem;
+    width: 17rem;
     position: relative;
-    top: 48.3rem;
-    left: 51rem;
+    top: 49.9rem;
+    left: 52rem;
     height: 20rem;
     
   }
@@ -883,7 +883,7 @@ body {
     top: 1206px;
     left: 75.9%;
     height: 400px;
-    object-fit: cover;
+    
     
   }
   
