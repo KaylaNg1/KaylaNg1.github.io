@@ -16,7 +16,7 @@ body {
     background-color: rgb(206, 196, 194);
     font-family: 'Shadows Into Light';
     overflow-x: hidden;
-    margin: 17px;
+    margin: 10px;
   }
   
   body::-webkit-scrollbar {
