@@ -91,7 +91,7 @@ body {
   }
   #section1 {
      position: absolute;
-     width: 79.8rem;
+     width: 69.8rem;
      height: 19rem;
      z-index: 0;
      margin-left: 10px;
@@ -209,7 +209,7 @@ body {
         z-index: 0;
         background-color: rgb(115, 119, 167);
         position: absolute;
-        width: 79.8rem;
+        width: 69.8rem;
         height: 100rem;
         z-index: 0;
         margin-left: 10px;
