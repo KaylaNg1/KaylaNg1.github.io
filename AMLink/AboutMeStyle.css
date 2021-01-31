@@ -11,6 +11,157 @@ div {
   flex-basis: 100%;
 }
 
+body {
+    background-color: rgb(206, 196, 194);
+    font-family: 'Shadows Into Light';
+    overflow-x: hidden;
+    margin: 17px;
+  }
+  
+  body::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+  
+  html, body, h1 {
+    min-width: 320px;
+  }
+  
+  h1 {
+    color: white;
+    font-family: 'Shadows Into Light';
+    font-size: 140%;
+    width: 15%;
+    left: 32px;
+    z-index: 5;
+    bottom: 0px;
+    position: absolute;
+    height: 30px;
+    text-decoration: none;
+  }
+  
+  h1 a {
+    text-decoration: none;
+  }
+  
+  ul {
+    color: white;
+    font-size: 140%;
+    font-family: 'Suranna';
+    background-color: rgb(36, 52, 85);
+    cursor: pointer;
+    position: fixed;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 98%;
+    left: 0rem;
+    top: 0;
+    z-index: 2;
+    height: 60px;
+  }
+  
+  li {
+    float: right;
+    right: 10px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  a {
+    color: white;
+    right: 10%;
+    top: -10px;
+  }
+  h3 {
+    color: white;
+    /*font-family: 'Ribeye Marrow';*/
+    font-family: 'Shadows Into Light';
+    position: relative;
+    top: 100px;
+    font-size: 60px;
+    text-align: center;
+  }
+  #description {
+    top: 15px;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    /*font-family: 'Ribeye';*/
+    font-family: 'Suranna';
+    text-align: left;
+    width: 75%;
+    left: 50px;
+  }
+  #name {
+    color: rgb(130, 114, 139);
+    font-family: 'Shadows Into Light';
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    font-size: 40px;
+  }
+   #bio {
+    top: 180px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    /*font-family: 'Ribeye';*/
+    font-family: 'Suranna';
+    text-align: left;
+    width: 65%;
+    left: 50px;
+  }
+  h4 {
+    color: white;
+    font-family: 'Shadows Into Light';
+  }
+  #self {
+    z-index: 2;
+    position: absolute;
+    left:50rem;
+    top: 10rem;
+    position: absolute;
+    width: 17rem;
+    border: 10px solid white;
+    object-fit: cover;
+    /*border-bottom: 10px solid white;
+  border-width: 10px;
+  border-radius:  10px;*/
+  }
+  .paragraph {
+    position: absolute;
+    width: 69.5rem;
+    height: 60rem;
+    top: 20.5rem;
+    z-index: 1;
+    margin-left: 10px;
+    background-color: rgb(115, 119, 167);
+    left: 0rem;
+  }
+  .topic {
+    position: absolute;
+    width: 69.5rem;
+    height: 20rem;
+    z-index: 1;
+    margin-left: 10px;
+    background-color: rgb(130, 114, 139);
+    left: 0rem;
+  }
+
 @media (min-width: 600px) {
   main {
     flex-wrap: nowrap;
