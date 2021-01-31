@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import url(https://fonts.googleapis.com/css?family=Suranna:regular);
 @import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light:regular);
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -60,10 +61,11 @@ body {
     position: fixed;
     list-style-type: none;
     margin-left: 10px;
-    margin-top: 0;
+    margin-right: 10px;
+    margin-top:0px;
     padding: 0;
     overflow: hidden;
-    width: 98%;
+    width: 81.7rem;
     left: 0rem;
     top: 0;
     z-index: 2;
@@ -88,25 +90,35 @@ body {
     right: 10%;
     top: -10px;
   }
+  
+  .topic {
+    position: absolute;
+    width: 81.7rem;
+    height: 20rem;
+    z-index: 1;
+    margin-left: 10px;
+    background-color: rgb(130, 114, 139);
+    left: 0rem;
+    top: 3rem;
+  }
   h3 {
     color: white;
     /*font-family: 'Ribeye Marrow';*/
     font-family: 'Shadows Into Light';
     position: relative;
-    top: 100px;
+    top: 5rem;
     font-size: 60px;
     text-align: center;
   }
-  #description {
-    top: 15px;
-    color: white;
-    font-size: 30px;
+  .paragraph {
     position: absolute;
-    /*font-family: 'Ribeye';*/
-    font-family: 'Suranna';
-    text-align: left;
-    width: 75%;
-    left: 50px;
+    width: 81.7rem;
+    height: 60rem;
+    top: 22.9rem;
+    z-index: 1;
+    margin-left: 10px;
+    background-color: rgb(115, 119, 167);
+    left: 0rem;
   }
   #name {
     color: rgb(130, 114, 139);
@@ -114,7 +126,18 @@ body {
     text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
     font-size: 40px;
   }
-   #bio {
+  #description {
+    top: 2rem;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    /*font-family: 'Ribeye';*/
+    font-family: 'Suranna';
+    text-align: left;
+    width: 70rem;
+    left: 3rem;
+  }
+  #bio {
     top: 180px;
     color: white;
     font-size: 20px;
@@ -122,7 +145,7 @@ body {
     /*font-family: 'Ribeye';*/
     font-family: 'Suranna';
     text-align: left;
-    width: 65%;
+    width: 50rem;
     left: 50px;
   }
   h4 {
@@ -132,34 +155,15 @@ body {
   #self {
     z-index: 2;
     position: absolute;
-    left:50rem;
-    top: 10rem;
+    left: 58rem;
+    top: 15rem;
     position: absolute;
-    width: 17rem;
+    width: 20rem;
     border: 10px solid white;
     object-fit: cover;
     /*border-bottom: 10px solid white;
   border-width: 10px;
   border-radius:  10px;*/
-  }
-  .paragraph {
-    position: absolute;
-    width: 69.5rem;
-    height: 60rem;
-    top: 20.5rem;
-    z-index: 1;
-    margin-left: 10px;
-    background-color: rgb(115, 119, 167);
-    left: 0rem;
-  }
-  .topic {
-    position: absolute;
-    width: 69.5rem;
-    height: 20rem;
-    z-index: 1;
-    margin-left: 10px;
-    background-color: rgb(130, 114, 139);
-    left: 0rem;
   }
 
 @media (min-width: 600px) {
