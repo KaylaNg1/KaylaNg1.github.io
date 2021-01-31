@@ -1,0 +1,48 @@
+﻿<Window x:Class="BlackJack.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BlackJack"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="750" Width="1000">
+    <Grid x:Name="Home" Width="1000" Height="750">
+        <Grid.Background>
+            <ImageBrush ImageSource="Images/Table.jpg"/>
+        </Grid.Background>
+        <Label x:Name="Title" Content="BlackJack" HorizontalAlignment="Left" Margin="368,175,0,0" VerticalAlignment="Top" Height="95" Width="248" FontWeight="Bold" FontSize="48" FontFamily="Segoe Print" BorderBrush="#FFFF9B9B" Foreground="#FFFF0F0F" OpacityMask="#FFBB2D2D" Background="White">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Button x:Name="StartBtn" Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top" Width="213" Margin="113,350,0,0" Height="54" Background="#FFFF1143" FontFamily="Segoe Print" FontSize="24" FontWeight="Bold" Click="StartBtn_Click"/>
+        <Button x:Name="HelpBtn" Content="Help" HorizontalAlignment="Left" VerticalAlignment="Top" Width="213" Margin="403,350,0,0" Height="54" Background="#FFFF1143" FontFamily="Segoe Print" FontSize="24" FontWeight="Bold" Click="HelpBtn_Click"/>
+        <Button x:Name="Exitbtn" Content="Exit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="213" Margin="685,350,0,0" Height="54" Background="#FFFF1143" FontFamily="Segoe Print" FontSize="24" FontWeight="Bold" Click="Exitbtn_Click"/>
+        <Image x:Name="AceOfSpades" HorizontalAlignment="Left" Height="243" VerticalAlignment="Top" Width="257" Margin="117,59,0,0" Source="Images/AceOfSpades.png" RenderTransformOrigin="0.576,0.445">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="Images/cards-removebg-preview.png" Stretch="Uniform"/>
+            </Image.OpacityMask>
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.427"/>
+                    <RotateTransform Angle="-0.656"/>
+                    <TranslateTransform X="1.022" Y="-0.127"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="AceOfSpades_Copy" HorizontalAlignment="Left" Height="243" VerticalAlignment="Top" Width="257" Margin="709,63,0,0" Source="Images/AceOfSpades.png" RenderTransformOrigin="0.576,0.445">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="Images/cards-removebg-preview.png" Stretch="Uniform"/>
+            </Image.OpacityMask>
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.427"/>
+                    <RotateTransform Angle="-0.656"/>
+                    <TranslateTransform X="1.022" Y="-0.127"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+    </Grid>
+</Window>

@@ -1,0 +1,522 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light:regular);
+@import url(https://fonts.googleapis.com/css?family=Suranna:regular);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic);
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+div {
+  flex-basis: 100%;
+}
+
+@media (min-width: 600px) {
+  main {
+    flex-wrap: nowrap;
+  }
+  div {
+    flex-basis: 50%;
+  }
+  body {
+    background-color: rgb(206, 196, 194);
+    overflow-y: scroll;
+    font-family: 'Suranna';
+    /*background-image: url(PBackground.png);
+    background-repeat: no-repeat;
+    background-size: 200%;*/
+    overflow-x: hidden;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+  }
+  body::-webkit-scrollbar {
+    width: 15px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+  html, body, h1 {
+    min-width: 320px;
+  }
+  h1 {
+    color: white;
+    font-family: 'Shadows Into Light';
+    font-size: 140%;
+    width: 15%;
+    left: 52px;
+    z-index: 5;
+    bottom: -5px;
+    position: absolute;
+    height: 30px;
+    text-decoration: none;
+  }
+  h1 a {
+    text-decoration: none;
+  }
+  span {
+    font-family: 'Suranna';
+  }
+  ul {
+    color: white;
+    font-size: 140%;
+    font-family: 'Suranna';
+    background-color: rgb(36, 52, 85);
+    cursor: pointer;
+    position: absolute;
+    list-style-type: none;
+    margin: 17px;
+    padding: 0;
+    overflow: hidden;
+    width: 98%;
+    top: -17px;
+    left: 2px;
+    z-index: 2;
+    height: 60px;
+  }
+  li {
+    float: right;
+    right: 10px;
+    font-family: 'Suranna';
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  a {
+    color: white;
+    right: 10%;
+    top: -10px;
+  }
+  ul * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  ul a {
+    color: white;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+  }
+  ul li a:before, ul li a:after {
+    height: 3px;
+    position: absolute;
+    content: '';
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    background-color: white;
+    width: 0;
+  }
+  ul a:before {
+    top: 10;
+    left: 0;
+  }
+  ul a:after {
+    bottom: 10;
+    right: 0;
+  }
+  ul a:hover, ul .current a {
+    color: #ffffff;
+  }
+  ul a:hover:before, ul .current a:before, ul a:hover:after, ul .current a:after {
+    width: 100%;
+  }
+  h3 {
+    color: white;
+    /*font-family: 'Ribeye Marrow';*/
+    font-family: 'Shadows Into Light';
+    position: relative;
+    top: 100px;
+    left: 45%;
+    font-size: 60px;
+  }
+  p {
+    color: transparent;
+    position: relative;
+    top: 800px;
+  }
+  #section2 {
+    position: absolute;
+    width: 98%;
+    height: 50%;
+    z-index: 1;
+    margin-left: 17px;
+    background-color: rgb(130, 114, 139);
+    left: 2px;
+    top: 60px;
+  }
+  #section2 h4 {
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    position: absolute;
+    left: 41.5%;
+  }
+  #section2 hr {
+    background-color: white;
+    height: 5px;
+    text-align: center;
+    width: 10%;
+    margin-top: 215px;
+    position: absolute;
+    left: 45.5%;
+  }
+  #section3 {
+    background-color: rgb(212, 206, 201);
+    position: absolute;
+    width: 98%;
+    height: 65%;
+    z-index: 1;
+    margin-left: 17px;
+    left: 2px;
+    top: 59%;
+  }
+  #section3 #blackjack {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #section3 p {
+    font-family: 'Merriweather';
+    color: white;
+    top: 25px;
+    width: 600px;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+  }
+  #section3 #googleSlides {
+    font-family: 'Merriweather';
+    color: white;
+    width: 600px;
+    position: absolute;
+    left: 55%;
+    top: 325px;
+  }
+
+  #section4 {
+    background-color: rgb(115, 119, 167);
+    position: absolute;
+    width: 98%;
+    height: 65%;
+    z-index: 1;
+    margin-left: 17px;
+    left: 2px;
+    top: 715px;
+  }
+  #section4 #missionStork {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+  }
+  #section4 p {
+    font-family: 'Merriweather';
+    color: white;
+    top: 25px;
+    width: 600px;
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+  }
+ 
+  #section5 {
+    position: absolute;
+    width: 98%;
+    height: 50%;
+    z-index: 1;
+    margin-left: 17px;
+    background-color: rgb(130, 114, 139);
+    left: 2px;
+    top: 1100px;
+  }
+
+  #section5 h4 {
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    position: absolute;
+    left: 44%;
+  }
+  #section5 hr {
+    background-color: white;
+    height: 5px;
+    text-align: center;
+    width: 10%;
+    margin-top: 215px;
+    position: absolute;
+    left: 45.5%;
+  }
+
+  #section6 {
+    background-color: rgb(212, 206, 201);
+    position: absolute;
+    width: 98%;
+    height: 65%;
+    z-index: 1;
+    margin-left: 17px;
+    left: 2px;
+    top: 1405px;
+  }
+  #section6 p {
+    right: 0;
+    font-family: 'Merriweather';
+    color: white;
+    top: 25px;
+    width: 600px;
+    position: absolute;
+    margin-right: 10px;
+  }
+  #section6 #poetry {
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  #section7 {
+    position: absolute;
+    width: 98%;
+    height: 50%;
+    z-index: 1;
+    margin-left: 17px;
+    background-color: rgb(130, 114, 139);
+    left: 2px;
+    top: 1800px;
+  }
+  #section7 h4 {
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    position: absolute;
+    left: 45%;
+  }
+  #section7 hr {
+    background-color: white;
+    height: 5px;
+    text-align: center;
+    width: 10%;
+    margin-top: 215px;
+    position: absolute;
+    left: 45.5%;
+  }
+  #section8 {
+    background-color: rgb(212, 206, 201);
+    position: absolute;
+    width: 98%;
+    height: 65%;
+    z-index: 1;
+    margin-left: 17px;
+    left: 2px;
+    top: 2100px;
+  }
+  #section8 #chem {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #section8 p {
+    font-family: 'Merriweather';
+    color: white;
+    top: 25px;
+    width: 600px;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+  }
+  /*
+
+.left2 {
+  background-color: rgb(71 78 110);
+  position: relative;
+  top: 200px;
+  left: 250px;
+  width: 50%;
+  height: 50%;
+}
+
+.left2 p {
+  color: black;
+  font-size: 20px;
+  font-family: 'Suranna';
+  top: -270px;
+  width: 350px;
+  left: 270px;
+}
+
+#doc {
+  position: relative;
+  top: -40px;
+  left: -160px;
+}
+
+#doc:hover {
+  opacity: 0.8;
+}
+
+.poemPic{
+  background-color: lightgray;
+  width: 40%;
+  position: absolute;
+  left: -50px;
+}
+
+.left3 {
+  background-color: rgb(71 78 110);
+  position: relative;
+  top: 250px;
+  left: 250px;
+  width: 50%;
+  height: 50%;
+}
+
+.left3 p {
+  color: black;
+  font-size: 20px;
+  font-family: 'Suranna';
+  top: -270px;
+  width: 350px;
+  left: 270px;
+}
+
+#chem {
+  position: relative;
+  top: -40px;
+  left: -160px;
+}
+
+#chem:hover {
+  opacity: 0.8;
+}
+
+.chemPic{
+  background-color: lightgray;
+  width: 40%;
+  position: absolute;
+  left: -50px;
+}
+
+#programming {
+  position: relative;
+  color: white;
+  font-size: 45px;
+  font-family: 'Shadows Into Light';
+  top: -260px;
+  left: -220px;
+}
+
+#literature {
+  position: relative;
+  color: white;
+  font-size: 45px;
+  font-family: 'Shadows Into Light';
+  top: 160px;
+  left: 150px;
+}
+
+#science {
+  position: relative;
+  color: white;
+  font-size: 45px;
+  font-family: 'Shadows Into Light';
+  top: 220px;
+  left: 150px;
+}
+
+#bjh {
+  color: white;
+  font-size: 40px;
+  font-family: 'Shadows Into Light';
+  position: relative;
+  left: 120%;
+  top: -480px;
+}
+
+#iph {
+  color: white;
+  font-size: 40px;
+  font-family: 'Shadows Into Light';
+  position: relative;
+  left: 120%;
+  top: -490px;
+  width: 100px;
+}
+
+#sfh {
+  color: white;
+  font-size: 40px;
+  font-family: 'Shadows Into Light';
+  position: relative;
+  left: 120%;
+  top: -460px;
+  width: 200px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body {
+    width: 100%;
+  }
+  ul {
+    width: 230%
+  }
+  h3 {
+    left: 350px;
+  }
+  #programming {
+    left: 50px;
+  }
+  #literature {
+    left: 50px;
+  }
+  #science {
+    left: 40px
+  }
+  #blackjack {
+    left: -220px;
+    width:50%;
+  }
+  #bjh {
+    left: 450px;
+  }
+  #iph {
+    left: 450px;
+  }
+  #sfh {
+    left: 450px;
+  }
+  .left1 {
+    width: 350px;
+    height: 50%;
+  }
+  .left2 {
+    width: 350px;
+    height: 50%;
+  }
+  .left3 {
+    width: 350px;
+    height: 50%;
+  }
+  .left1 p{
+    top: 50px;
+    left:-20px;
+  }
+  .left2 p{
+    top: 50px;
+    left:-20px;
+  }
+  .left3 p{
+    top: 100px;
+    left:-20px;
+  }
+}
+*/
+}

@@ -1,0 +1,1190 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light:regular);
+@import url(https://fonts.googleapis.com/css?family=Karla:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,700);
+@import url(https://fonts.googleapis.com/css?family=Suranna:regular);
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+div{
+  flex-basis: 100%;
+}
+
+body {
+    background-color: rgb(206, 196, 194);
+    font-family: 'Shadows Into Light';
+    overflow-x: hidden;
+    margin: 17px;
+  }
+  
+  body::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+  
+  html, body, h1 {
+    min-width: 320px;
+  }
+  
+  h1 {
+    color: white;
+    font-family: 'Shadows Into Light';
+    font-size: 140%;
+    width: 15%;
+    left: 32px;
+    z-index: 5;
+    bottom: 0px;
+    position: absolute;
+    height: 30px;
+    text-decoration: none;
+  }
+  
+  h1 a {
+    text-decoration: none;
+  }
+  
+  ul {
+    color: white;
+    font-size: 140%;
+    font-family: 'Suranna';
+    background-color: rgb(36, 52, 85);
+    cursor: pointer;
+    position: fixed;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 98%;
+    left: 2px;
+    top: 0;
+    z-index: 2;
+    height: 60px;
+  }
+  
+  li {
+    float: right;
+    right: 10px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  a {
+    color: white;
+    right: 10%;
+    top: -10px;
+  }
+  #section1{
+    position: absolute;
+    width: 69.5rem;
+    height: 40rem;
+    z-index: 1;
+    margin-left: 10px;
+    background-color: rgb(130, 114, 139);
+    left: 0rem;
+  }
+  
+  .intro #quote {
+    font-size: 4rem;
+    position: absolute;
+    left: 50px;
+    height: 100px;
+    color: white;
+    top: 50px;
+    /*left: 120px;*/
+    font-family: 'Shadows Into Light';
+    text-align:center;
+    /*width: 100%;*/
+  }
+  
+  .name #greeting {
+    font-size: 50px;
+    position: absolute;
+    color: white;
+    height: 100px;
+    top: 250px;
+    left: 450px;
+    font-family: 'Shadows Into Light';
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    text-align:center;
+  }
+
+  .circle {
+    border-radius: 50%;
+    position: absolute;
+    top: 140px;
+    left: 70%;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    size: 150%;
+  }
+  
+  .circle img {
+    display: inline;
+    margin: 0 auto;
+    margin-left: 0%;
+    height: 350px;
+    width: 260px;
+    max-width: 100%;
+  }
+  
+  #section2 {
+    position: absolute;
+    top: 39rem;
+    left: 0rem;
+    background-color: rgb(115, 119, 167);
+    width: 69.5rem;
+    height: 20rem;
+    z-index: 1;
+    margin: 10px;
+  }
+  #section2 pre {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: 'Suranna';
+    top: 140px;
+    left: 18rem;
+    text-align: center;
+  }
+  
+  #section2 h4 {
+    top: 2%;
+    left: 30.5rem;
+    position: absolute;
+    color: white;
+    font-size: 50px;
+   
+  }
+
+  #fencingSolo {
+    width: 35rem;
+    position: relative;
+    top: 20rem ;
+    left: 0rem;
+    height: 25rem;
+    object-fit: cover;
+  }
+  
+  .fencingCaption {
+    position: relative;
+    top: -9.0rem;
+    background-color:rgb(212, 206, 201);
+    color: white;
+    width: 35rem;
+    height: 25rem;
+    font-size: 45px;
+    left: 35rem;
+  }
+  .fencingCaption p{
+    font-size: 18px;
+    font-family: 'Suranna';
+    color: white;
+    margin: 10px;
+    margin-top: -10px;
+  }
+  
+  .fencingCaption h5 {
+    text-align: center;
+    top: 25px;
+    position: relative;
+  }
+  #section3 {
+    background-color: rgb(76, 94, 153);
+    position: absolute;
+    top: 84rem;
+    left: 0rem;
+    height: 20rem;
+   z-index: 1;
+    margin: 10px;
+    width: 69.5rem;
+  }
+  
+  #section3 pre {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: 'Suranna';
+    top: 140px;
+    left: 18.5rem;
+    text-align: center;
+  }
+
+  #section3 h4{
+    top: 2%;
+    left: 30.5rem;
+    position: absolute;
+    color: white;
+    font-size: 50px;
+  }
+  
+  #mob {
+    position: relative;
+    top: 20rem;
+    width: 34.5rem;
+    height: 25rem;
+    left: 35rem;
+    object-fit: cover;
+  }
+  
+  .mobCaption {
+    width: 35rem;
+    position: relative;
+    top: -8.9rem ;
+    left: 0.2rem;
+    height: 25rem;
+    font-size: 45px;
+    background-color:rgb(212, 206, 201);
+    color: white;
+  }
+  .mobCaption p{
+    font-size: 15px;
+    font-family: 'Suranna';
+    color: white;
+    margin: 10px;
+    margin-top: -10px;
+  }
+
+  .mobCaption h5 {
+    text-align: center;
+    top: 25px;
+    position: relative;
+  }
+   #section4 {
+    position: absolute;
+    top: 129rem;
+    left: 0rem;
+    background-color: rgb(42, 62, 104);
+    height: 20rem;
+    margin-left: 10px;
+    width: 69.5rem;
+    z-index: 1;
+  }
+  
+  #section4 pre {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: 'Suranna';
+    text-align: center;
+    top: 125px;
+    left: 29%;
+  }
+
+  #section4 h4{
+    top: 2%;
+    left: 43%;
+    position: absolute;
+    color: white;
+    font-size: 50px;
+  }
+
+   #robo {
+    width: 18rem;
+    position: relative;
+    top: 147.9rem;
+    left: -0.4rem;
+    height: 20rem;
+    object-fit: cover;
+  }
+  
+  #piano {
+    width: 18rem;
+    position: relative;
+    top: 119.96rem;
+    left: 16.62rem;
+    height: 20rem;
+    object-fit: cover;
+  }
+  
+  #snowBoard {
+    width: 18rem;
+    position: relative;
+    top: 85.8rem;
+    left: 34.5rem;
+    height: 20rem;
+    object-fit: cover;
+  }
+  
+  #fencingGroup {
+    width: 18rem;
+    position: relative;
+    top: 48.3rem;
+    left: 51rem;
+    height: 20rem;
+    
+  }
+  
+  #self2{
+    left: 2.5%;
+    position: absolute;
+    top: 2rem;
+    width:15rem;
+    height: 16rem;
+    object-fit: cover;
+  }
+  
+  #PButton {
+    font-size: 20px;
+    background-color: transparent;
+    font-family: 'Suranna';
+    top: 14rem;
+    left: 31rem;
+    position: absolute;
+    color: white;
+    width: 9rem;
+    height: 3rem;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: inline-block;
+  }
+  
+  #PButton:hover {
+    opacity: 0.6;
+  }
+  
+  #RButton {
+    font-size: 20px;
+    background-color: transparent;
+    font-family: 'Suranna';
+    top: 16rem;
+    left: 31rem;
+    position: absolute;
+    color: white;
+    width: 9rem;
+    height: 3rem;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: inline-block;
+  }
+  
+  #RButton:hover {
+    opacity: 0.6;
+  }
+
+  #section4 #AMButton {
+    font-size: 20px;
+    background-color: transparent;
+    font-family: 'Suranna';
+    top: 14rem;
+    left: 31rem;
+    position: absolute;
+    color: white;
+    width: 9rem;
+    height: 3rem;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: inline-block;
+  }
+  
+  #section4 #AMButton:hover {
+    opacity: 0.6;
+  }
+
+@media (min-width: 600px) {
+  main {
+    flex-wrap: nowrap;
+  }
+
+  div {
+    flex-basis: 50%;
+  }
+  body {
+    background-color: rgb(206, 196, 194);
+    font-family: 'Shadows Into Light';
+    overflow-x: hidden;
+    margin: 17px;
+  }
+  
+  body::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+  
+  html, body, h1 {
+    min-width: 320px;
+  }
+  
+  h1 {
+    color: white;
+    font-family: 'Shadows Into Light';
+    font-size: 140%;
+    width: 15%;
+    left: 52px;
+    z-index: 5;
+    bottom: -5px;
+    position: absolute;
+    height: 30px;
+    text-decoration: none;
+  }
+  
+  h1 a {
+    text-decoration: none;
+  }
+  
+  ul {
+    color: white;
+    font-size: 140%;
+    font-family: 'Suranna';
+    background-color: rgb(36, 52, 85);
+    cursor: pointer;
+    position: fixed;
+    list-style-type: none;
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 98%;
+    left: 2px;
+    top: 0;
+    z-index: 2;
+    height: 60px;
+  }
+  
+  li {
+    float: right;
+    right: 10px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  a {
+    color: white;
+    right: 10%;
+    top: -10px;
+  }
+  
+  ul * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  
+  ul a {
+    color: white;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  ul li a:before, ul li a:after {
+    height: 3px;
+    position: absolute;
+    content: '';
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    background-color: white;
+    width: 0;
+  }
+  
+  ul a:before {
+    top: 10;
+    left: 0;
+  }
+  
+  ul a:after {
+    bottom: 10;
+    right: 0;
+  }
+  
+  ul a:hover, ul .current a {
+    color: #ffffff;
+  }
+  
+  ul a:hover:before, ul .current a:before, ul a:hover:after, ul .current a:after {
+    width: 100%;
+  }
+  
+  /*
+  ul.P ~ #navLine {
+    margin-left: 25%;
+  }
+  
+  .R-scrollR ~ #navLine {
+    margin-left: 50%;
+  }
+  
+  .AM-scrollAM ~ #navLine {
+    margin-left: 75%;
+  }
+  
+  #navLine {
+    height: .25rem;
+    width: 25%;
+    margin: 0;
+    background: rgb(248, 246, 245);
+    border: none;
+    transition: .3s ease-in-out;
+  }
+  */
+  
+  ul.scrollP #navProject {
+    text-decoration: underline;
+    text-decoration-color:white;
+    transition: 0.85s ease-in;
+  }
+  
+  ul.scrollAM #navAboutMe {
+    text-decoration: underline;
+    text-decoration-color: white;
+    transition: 0.85s ease-in;
+  }
+  
+  ul.scrollR #navResume {
+    text-decoration: underline;
+    text-decoration-color: white;
+    transition: 0.85s ease-in;
+  }
+  
+  #section1{
+    position: absolute;
+    width: 98%;
+    height: 100%;
+    z-index: 1;
+    margin-left: 17px;
+    background-color: rgb(130, 114, 139);
+    left: 2px;
+  }
+  
+  .intro #quote {
+    font-size: 4rem;
+    position: absolute;
+    left: 50px;
+    height: 100px;
+    color: white;
+    top: 50px;
+    /*left: 120px;*/
+    font-family: 'Shadows Into Light';
+    text-align:center;
+    /*width: 100%;*/
+  }
+  
+  .name #greeting {
+    font-size: 50px;
+    position: absolute;
+    color: white;
+    height: 100px;
+    top: 250px;
+    left: 450px;
+    font-family: 'Shadows Into Light';
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    text-align:center;
+  }
+  
+  /*
+  h4 {
+    position: relative;
+    left: 100%;
+    top: 5px;
+  }*/
+  
+  #section4 #AMButton {
+    font-size: 20px;
+    background-color: transparent;
+    font-family: 'Suranna';
+    position: absolute;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 2px solid white;
+    padding: 2px;
+    border-radius: 50px;
+    display: inline-block;
+    top: 225px;
+    left: 78%;
+  }
+  
+  #section4 #AMButton:hover {
+    opacity: 0.6;
+  }
+  
+  #PButton {
+    font-size: 20px;
+    background-color: transparent;
+    font-family: 'Suranna';
+    top: 215px;
+    left: 78%;
+    position: absolute;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 2px solid white;
+    padding: 2px;
+    border-radius: 50px;
+    display: inline-block;
+  }
+  
+  #PButton:hover {
+    opacity: 0.6;
+  }
+  
+  #RButton {
+    font-size: 20px;
+    background-color: transparent;
+    font-family: 'Suranna';
+    position: absolute;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 2px solid white;
+    padding: 2px;
+    border-radius: 50px;
+    display: inline-block;
+    top: 235px;
+    left: 77%;
+  }
+  
+  #RButton:hover {
+    opacity: 0.6;
+  }
+  
+  #mail {
+    size: 1px;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    position: absolute;
+    top: 140px;
+    left: 70%;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    size: 150%;
+  }
+  
+  .circle img {
+    display: inline;
+    margin: 0 auto;
+    margin-left: 0%;
+    height: 350px;
+    width: 260px;
+    max-width: 100%;
+  }
+  
+  
+  #section2 {
+    position: absolute;
+    top: 610px;
+    left: 2px;
+    background-color: rgb(115, 119, 167);
+    width: 98%;
+    height: 55%;
+    z-index: -1;
+    margin: 17px;
+  }
+  
+  #section2 pre {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: 'Suranna';
+    top: 125px;
+    left: 48%;
+    text-align: center;
+  }
+  
+  #section2 h4 {
+    top: 2%;
+    left: 78%;
+    position: absolute;
+  }
+
+  #fencingSolo {
+    width: 100%;
+    position: relative;
+    top: 38.8%;
+    left: -62px;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .fencingCaption {
+    position: relative;
+    top: -15%;
+    background-color:rgb(212, 206, 201);
+    color: white;
+    width: 100%;
+    height: 400px;
+    font-size: 45px;
+    left: 90%;
+  }
+  
+  .fencingCaption p{
+    font-size: 18px;
+    font-family: 'Suranna';
+    color: white;
+    margin: 10px;
+    margin-top: -10px;
+  }
+  
+  .fencingCaption h5 {
+    text-align: center;
+    top: 25px;
+    position: relative;
+  }
+  
+  #section3 {
+    top: 1355px;
+    left: 2px;
+    background-color: rgb(76, 94, 153);
+    width: 98%;
+    height: 55%;
+    z-index: -1;
+    margin-left: 17px;
+    position: absolute;
+  }
+  
+  #section3 pre {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: 'Suranna';
+    top: 125px;
+    left: 48%;
+    text-align: center;
+  }
+
+  #section3 h4{
+    top: 2%;
+    left: 80%;
+    position: absolute;
+  }
+  
+  #mob {
+    position: relative;
+    height: 400px;
+    object-fit: cover;
+    top: 38.8%;
+    left: 90%;
+    background-color:rgb(212, 206, 201);
+    color: white;
+    width: 100%;
+  }
+  
+  .mobCaption {
+    background-color:rgb(212, 206, 201);
+    color: white;
+    font-size: 45px;
+    width: 100%;
+    position: relative;
+    height: 400px;
+    top: -14.7%;
+    left: -62px;
+  }
+  
+  .mobCaption p{
+    font-size: 15px;
+    font-family: 'Suranna';
+    color: white;
+    margin: 10px;
+    margin-top: -10px;
+  }
+
+  .mobCaption h5 {
+    text-align: center;
+    top: 25px;
+    position: relative;
+  }
+  
+  #section4 {
+    position: absolute;
+    top: 2088px;
+    left: 2px;
+    background-color: rgb(42, 62, 104);
+    width: 98%;
+    height: 55%;
+    z-index: -1;
+    margin-left: 17px;
+  }
+  
+  #section4 pre {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: 'Suranna';
+    top: 125px;
+    left: 57%;
+    text-align: center;
+  }
+
+  #section4 h4{
+    top: 1%;
+    left: 78%;
+    position: absolute;
+    width: 100%;
+  }
+  
+  #robo {
+    width: 25.5%;
+    position: relative;
+    top: 2406px;
+    left: 2px;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  #piano {
+    width: 25.5%;
+    position: relative;
+    top: 2007px;
+    left: 25.5%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  #snowBoard {
+    width: 25.5%;
+    position: relative;
+    top: 1606px;
+    left: 50.8%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  #fencingGroup {
+    width: 25%;
+    position: relative;
+    top: 1206px;
+    left: 75.9%;
+    height: 400px;
+    object-fit: cover;
+    
+  }
+  
+  #self2{
+    left: 2.5%;
+    position: absolute;
+    top: 30px;
+    width: 50%;
+    height: 270px;
+    object-fit: cover;
+  }
+  
+  .text {
+    position: relative;
+    color: white;
+    font-size: 40px;
+    left: 5%;
+    top: 10%;
+  }
+  
+  .coverRobo .overlay {
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(130, 114, 139);
+    z-index: 2;
+    width: 24.7%;
+    position: absolute;
+    top: 2423px;
+    left:1.5%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .coverRobo:hover .overlay {
+    opacity: 1;
+  }
+  
+  .caption {
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: 'Suranna';
+    width: 90%;
+  }
+  
+  .coverPiano .overlay {
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(130, 114, 139);
+    z-index: 2;
+    width: 24.7%;
+    position: absolute;
+    top: 2423px;
+    left:26.1%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .coverPiano:hover .overlay {
+    opacity: 1;
+  }
+  
+  .coverSnowboard .overlay {
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(130, 114, 139);
+    z-index: 2;
+    width: 24.7%;
+    position: absolute;
+    top: 2423px;
+    left:50.5%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .coverSnowboard:hover .overlay {
+    opacity: 1;
+  }
+  
+  .coverFencing .overlay {
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(130, 114, 139);
+    z-index: 2;
+    width: 24.7%;
+    position: absolute;
+    top: 2423px;
+    left:74.8%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .coverFencing:hover .overlay {
+    opacity: 1;
+  }
+
+}
+
+
+/* minimize section 
+
+.col-intro {
+  max-width: 100%;
+}
+
+.col-circle {
+  max-width: 100%;
+  max-height: 350px;
+}
+
+.col-btn {
+  max-width: 100%;
+}*/
+
+/*@media only screen and (max-width: 1000px) {
+  body {
+    overflow-x: visible;
+  }
+  #quote {
+    font-size: 60px;
+    position: relative;
+    color: white;
+    top: 20px;
+    left: 5%;
+    font-family: 'Shadows Into Light';
+    width: 10%;
+  }
+}*/
+
+/*
+@media only screen and (max-width: 960px){
+  #AMButton {
+    font-size: 25px;
+    background-color: transparent;
+    font-family: 'Shadows Into Light';
+    left: 76.5%;
+    top: 800px;
+    position: relative;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-color: white;
+  }
+
+  #RButton {
+    background-color: transparent;
+    font-size: 25px;
+    font-family: 'Shadows Into Light';
+    position: relative;
+    left: 38%;
+    top: 385px;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-color: white;
+  }
+
+  #PButton {
+    font-size: 25px;
+    background-color: transparent;
+    font-family: 'Shadows Into Light';
+    position: relative;
+    top: -25px;
+    left: 58%;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-color: white;
+  }
+}
+.content-wrapper {
+  margin: 0 auto;
+  max-width: 960px;
+}*/
+
+/*
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body {
+    width: 100%;
+  }
+  ul {
+    top: -17px;
+    left: 5px;
+    width: 67.5%;
+    margin: 25px;
+    position: fixed;
+  }
+  .circle {
+    left: 70%;
+  }
+  #section1 {
+    width: 250%;
+    left: 5px;
+    margin-left: 25px;
+  }
+  .intro #quote {
+    left: 10%;
+  }
+  .name #greeting {
+    left: 45%;
+  }
+  #section2 {
+    width: 250%;
+    left: -5px;
+    margin-left: 25px;
+  }
+  #section3 {
+    width: 250%;
+    left: -5px;
+    margin-left: 25px;
+    top: -162px;
+  }
+  #section4 {
+    width: 250%;
+    left: -5px;
+    margin-left: 25px;
+    top: 65px;
+  }
+  #section4 #AMButton {
+    top: 40px;
+    left: 38%;
+  }
+  #PButton {
+    top: -550px;
+    left: 110%
+  }
+  #RButton {
+    top: -350px;
+    left: 111%
+  }
+  #section4 pre {
+    left: -45px;
+  }
+  #section2 pre {
+    left: -50px;
+  }
+  #section3 pre {
+    left: -35px;
+  }
+  h4 {
+    left: -40px;
+  }
+  ul {
+    top: 0px;
+  }
+  #fencingSolo {
+    width: 50%;
+    top: 393px;
+    left: -46px;
+    height: 330px;
+  }
+  .fencingCaption {
+    width: 50%;
+    left: 422px;
+    height: 330px;
+    top: 394
+  }
+  .mobCaption {
+    top: 394;
+    left: -47px;
+    height: 330px;
+  }
+  #mob {
+    height: 330px;
+    top: 394px;
+    left: 421px;
+  }
+  #robo {
+    height: 330px;
+    top: 394px;
+    left: -45px;
+  }
+  #piano {
+    height: 330px;
+    top: 394px;
+    left: 190px;
+  }
+  #snowBoard {
+    height: 330px;
+    top: 393px;
+    left: 421px;
+  }
+  #fencingGroup {
+    height: 330px;
+    top: 393px;
+    left: 655px;
+  }
+}
+*/
+
+/*
+#section1,#section2, #section3, #section4{
+  float: top-left;
+}
+@media screen and (max-width: 600px) {
+  .container{
+    margin: auto;
+    max-width: 800px;
+  }
+  }

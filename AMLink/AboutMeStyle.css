@@ -1,0 +1,203 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Suranna:regular);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light:regular);
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+div {
+  flex-basis: 100%;
+}
+
+@media (min-width: 600px) {
+  main {
+    flex-wrap: nowrap;
+  }
+  div {
+    flex-basis: 50%;
+  }
+  body {
+    background-color: rgb(206, 196, 194);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: 'Shadows Into Light';
+    /*background-image: url(AMBackground.png);
+    background-repeat: no-repeat;
+    background-size: 290%;
+    */
+    background-position: top;
+    margin: 17px;
+  }
+  body::-webkit-scrollbar {
+    width: 15px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+  html, body, h1 {
+    min-width: 320px;
+  }
+  h1 {
+    color: white;
+    font-family: 'Shadows Into Light';
+    font-size: 140%;
+    width: 15%;
+    left: 52px;
+    z-index: 5;
+    bottom: -5px;
+    position: absolute;
+    height: 30px;
+    text-decoration: none;
+  }
+  h1 a {
+    text-decoration: none;
+  }
+  span {
+    font-family: 'Suranna';
+  }
+  ul {
+    color: white;
+    font-size: 140%;
+    font-family: 'Suranna';
+    background-color: rgb(36, 52, 85);
+    cursor: pointer;
+    position: absolute;
+    list-style-type: none;
+    margin: 17px;
+    padding: 0;
+    overflow: hidden;
+    width: 98%;
+    top: -17px;
+    left: 2px;
+    z-index: 2;
+    height: 60px;
+  }
+  li {
+    float: right;
+    right: 10px;
+    font-family: 'Suranna';
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  a {
+    color: white;
+    right: 10%;
+    top: -10px;
+  }
+  ul * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  ul a {
+    color: white;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+  }
+  ul li a:before, ul li a:after {
+    height: 3px;
+    position: absolute;
+    content: '';
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    background-color: white;
+    width: 0;
+  }
+  ul a:before {
+    top: 10;
+    left: 0;
+  }
+  ul a:after {
+    bottom: 10;
+    right: 0;
+  }
+  ul a:hover, .ul .current a {
+    color: #ffffff;
+  }
+  ul a:hover:before, ul .current a:before, ul a:hover:after, ul .current a:after {
+    width: 100%;
+  }
+  h3 {
+    color: white;
+    /*font-family: 'Ribeye Marrow';*/
+    font-family: 'Shadows Into Light';
+    position: relative;
+    top: 100px;
+    font-size: 60px;
+    text-align: center;
+  }
+  #description {
+    top: 15px;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    /*font-family: 'Ribeye';*/
+    font-family: 'Suranna';
+    text-align: left;
+    width: 75%;
+    left: 50px;
+  }
+  #name {
+    color: rgb(130, 114, 139);
+    font-family: 'Shadows Into Light';
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    font-size: 40px;
+  }
+  #bio {
+    top: 180px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    /*font-family: 'Ribeye';*/
+    font-family: 'Suranna';
+    text-align: left;
+    width: 65%;
+    left: 50px;
+  }
+  h4 {
+    color: white;
+    font-family: 'Shadows Into Light';
+  }
+  #self {
+    z-index: 2;
+    position: absolute;
+    left: 71%;
+    top: 180px;
+    position: absolute;
+    width: 25%;
+    border: 10px solid white;
+    object-fit: cover;
+    /*border-bottom: 10px solid white;
+  border-width: 10px;
+  border-radius:  10px;*/
+  }
+  .topic {
+    position: absolute;
+    width: 98%;
+    height: 70%;
+    z-index: 1;
+    margin-left: 17px;
+    background-color: rgb(130, 114, 139);
+    left: 2px;
+  }
+  .paragraph {
+    position: absolute;
+    width: 98%;
+    height: 900px;
+    top: 350px;
+    z-index: 1;
+    margin-left: 17px;
+    background-color: rgb(115, 119, 167);
+    left: 2px;
+  }
+}

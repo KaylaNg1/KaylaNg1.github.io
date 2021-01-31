@@ -1,0 +1,172 @@
+﻿<Application x:Class="BlackJack.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:BlackJack"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <BitmapImage x:Key="Table" UriSource="Images\Table.jpg">
+                
+            </BitmapImage>
+            <BitmapImage x:Key="Table2" UriSource="Images\Table2.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="2OfDiamonds" UriSource="Images\2OfDiamonds.png">
+
+            </BitmapImage>
+            <BitmapImage x:Key="4OfDiamonds" UriSource="Images\4OfDiamonds.png">
+
+            </BitmapImage>
+            <BitmapImage x:Key="5OfDiamonds" UriSource="Images\5OfDiamonds.png">
+
+            </BitmapImage>
+            <BitmapImage x:Key="6OfDiamonds" UriSource="Images\6OfDiamonds.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="7OfDiamonds" UriSource="Images\7OfDiamonds.png">
+
+            </BitmapImage>
+            <BitmapImage x:Key="8OfDiamonds" UriSource="Images\8OfDiamonds.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="9OfDiamonds" UriSource="Images\9OfDiamonds.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="10OfDiamonds" UriSource="Images\10OfDiamonds.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="JackOfDiamonds" UriSource="Images\JackOfDiamonds.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="QueenOfDiamonds" UriSource="Images\QueenOfDiamonds.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="KingOfDiamonds" UriSource="Images\KingOfDiamonds.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="2OfHearts" UriSource="Images\2OfHearts.png">
+
+            </BitmapImage>
+            <BitmapImage x:Key="3OfHearts" UriSource="Images\3OfHearts.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="4OfHearts" UriSource="Images\4OfHearts.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="5OfHearts" UriSource="Images\5OfHearts.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="6OfHearts" UriSource="Images\6OfHearts.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="7OfHearts" UriSource="Images\7OfHearts.png">
+
+            </BitmapImage>
+            <BitmapImage x:Key="8OfHearts" UriSource="Images\8OfHearts.png">
+
+            </BitmapImage>
+            <BitmapImage x:Key="9OfHearts" UriSource="Images\9OfHearts.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="10OfHearts" UriSource="Images\10OfHearts.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="JackOfHearts" UriSource="Images\JackOfHearts.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="QueenOfHearts" UriSource="Images\QueenOfHearts.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="KingOfHearts" UriSource="Images\KingOfHearts.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="2OfClubs" UriSource="Images\2OfClubs.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="3OfClubs" UriSource="Images\3OfClubs.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="4OfClubs" UriSource="Images\4OfClubs.png">
+
+            </BitmapImage>
+            <BitmapImage x:Key="5OfClubs" UriSource="Images\5OfClubs.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="6OfClubs" UriSource="Images\6OfClubs.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="7OfClubs" UriSource="Images\7OfClubs.png">
+
+            </BitmapImage>
+            <BitmapImage x:Key="8OfClubs" UriSource="Images\8OfClubs.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="9OfClubs" UriSource="Images\9OfClubs.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="10OfClubs" UriSource="Images\10OfClubs.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="JackOfClubs" UriSource="Images\JackOfClubs.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="QueenOfClubs" UriSource="Images\QueenOfClubs.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="KingOfClubs" UriSource="Images\KingOfClubs.png">
+
+            </BitmapImage>
+            <BitmapImage x:Key="2OfSpades" UriSource="Images\2OfSpades.png">
+
+            </BitmapImage>
+            <BitmapImage x:Key="3OfSpades" UriSource="Images\3OfSpades.png">
+
+            </BitmapImage>
+            <BitmapImage x:Key="4OfSpades" UriSource="Images\4OfSpades.png">
+
+            </BitmapImage>
+            <BitmapImage x:Key="5OfSpades" UriSource="Images\5OfSpades.png">
+
+            </BitmapImage>
+            <BitmapImage x:Key="6OfSpades" UriSource="Images\6OfSpades.png">
+
+            </BitmapImage>
+            <BitmapImage x:Key="7OfSpades" UriSource="Images\7OfSpades.png">
+
+            </BitmapImage>
+            <BitmapImage x:Key="8OfSpades" UriSource="Images\8OfSpades.png">
+
+            </BitmapImage>
+            <BitmapImage x:Key="9OfSpades" UriSource="Images\9OfSpades.png">
+
+            </BitmapImage>
+            <BitmapImage x:Key="10OfSpades" UriSource="Images\10OfSpades.png">
+
+            </BitmapImage>
+            <BitmapImage x:Key="JackOfSpades" UriSource="Images\JackOfSpades.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="QueenOfSpades" UriSource="Images\QueenOfSpades.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="KingOfSpades" UriSource="Images\KingOfSpades.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="AceOfDiamonds" UriSource="Images\AceOfDiamonds.jpg">
+
+            </BitmapImage>
+            <BitmapImage x:Key="AceOfHearts" UriSource="Images\AceOfHearts.png">
+
+            </BitmapImage>
+            <BitmapImage x:Key="AceOfClubs" UriSource="Images\AceOfClubs.png">
+
+            </BitmapImage>
+            <BitmapImage x:Key="AceOfSpades" UriSource="Images\AceOfSpades.png">
+
+            </BitmapImage>
+            <BitmapImage x:Key="cards-removebg-preview" UriSource="Images\cards-removebg-preview.png">
+
+            </BitmapImage>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
