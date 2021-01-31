@@ -162,13 +162,13 @@ body {
     font-size: 20px;
     font-family: 'Suranna';
     top: 140px;
-    left: 18rem;
+    left: 20rem;
     text-align: center;
   }
   
   #section2 h4 {
     top: 2%;
-    left: 30.5rem;
+    left: 31rem;
     position: absolute;
     color: white;
     font-size: 50px;
@@ -224,13 +224,13 @@ body {
     font-size: 20px;
     font-family: 'Suranna';
     top: 140px;
-    left: 18.5rem;
+    left: 20rem;
     text-align: center;
   }
 
   #section3 h4{
     top: 2%;
-    left: 30.5rem;
+    left: 31rem;
     position: absolute;
     color: white;
     font-size: 50px;
@@ -286,12 +286,12 @@ body {
     font-family: 'Suranna';
     text-align: center;
     top: 125px;
-    left: 29%;
+    left: 22rem;
   }
 
   #section4 h4{
     top: 2%;
-    left: 43%;
+    left: 31rem;
     position: absolute;
     color: white;
     font-size: 50px;
@@ -398,6 +398,8 @@ body {
   #section4 #AMButton:hover {
     opacity: 0.6;
   }
+  
+
 
 @media (min-width: 600px) {
   main {
