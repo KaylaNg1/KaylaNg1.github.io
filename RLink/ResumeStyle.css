@@ -149,7 +149,7 @@ body {
         margin-left: 20px;
         color: white;
         font-family: 'Merriweather';
-        margin-top: 26rem;
+        margin-top: 24rem;
    
     }
     #section2 #year1 {
@@ -190,7 +190,7 @@ body {
         background-color: white;
         z-index: 5;
         position: absolute;
-        top: 28rem;
+        top: 26rem;
     }
     #section2 ul {
         list-style-type: none;
