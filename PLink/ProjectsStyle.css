@@ -347,7 +347,7 @@ body {
     overflow: hidden;
     width: 98%;
     top: -17px;
-    left: 2px;
+    left: 5px;
     z-index: 2;
     height: 60px;
   }
@@ -454,7 +454,7 @@ body {
     top: 25px;
     width: 600px;
     position: absolute;
-    right: 0;
+    right: 10px;
     margin-right: 10px;
   }
   #section3 #googleSlides {
