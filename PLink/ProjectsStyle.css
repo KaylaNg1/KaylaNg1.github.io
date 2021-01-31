@@ -454,8 +454,7 @@ body {
     top: 25px;
     width: 600px;
     position: absolute;
-    right: 10px;
-    margin-right: 10px;
+    left: 450px;
   }
   #section3 #googleSlides {
     font-family: 'Merriweather';
