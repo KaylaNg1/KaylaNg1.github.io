@@ -62,11 +62,12 @@ body {
     position: fixed;
     list-style-type: none;
     margin-left: 10px;
+    margin-right:10px;
     margin-top: 0;
     padding: 0;
     overflow: hidden;
-    width: 98%;
-    left: 2px;
+    width: 81.7rem; ;
+    left: 0rem;
     top: 0;
     z-index: 2;
     height: 60px;
@@ -96,7 +97,7 @@ body {
     background-color: rgb(130, 114, 139);
     left: 0rem;
     position: absolute;
-    width: 78.5rem;
+    width: 81.7rem;
     height: 20rem;
     top: 3rem
   }
@@ -105,7 +106,7 @@ body {
     font-size: 45px;
     color: white;
     position: absolute;
-    left: 34rem;
+    left: 36rem;
     top:1rem;
   }
   #section2 hr {
@@ -115,12 +116,12 @@ body {
     width: 10%;
     margin-top: 215px;
     position: absolute;
-    left: 36.3rem;
+    left: 38.3rem;
   }
   #section3 {
     background-color: rgb(212, 206, 201);
     position: absolute;
-    width: 78.5rem;
+    width: 81.7rem;
     height: 25rem;
     z-index: 1;
     margin-left: 10px;
@@ -128,7 +129,7 @@ body {
     top: 23rem;
   }
   #section3 #blackjack {
-    width: 40rem;
+    width: 43rem;
     height: 25rem;
     position: absolute;
     top: 0;
@@ -140,7 +141,7 @@ body {
     top: 1rem;
     width: 35rem;
     position: absolute;
-    left: 42rem;
+    left: 45rem;
     margin-right: 10px;
   }
   #section3 #googleSlides {
@@ -154,7 +155,7 @@ body {
   #section4 {
     background-color: rgb(115, 119, 167);
     position: absolute;
-    width: 78.5rem;
+    width: 81.7rem;
     height: 25rem;
     z-index: 1;
     margin-left: 10px;
@@ -162,7 +163,7 @@ body {
     top: 48rem;
   }
   #section4 #missionStork {
-    width: 38.5rem;
+    width: 38.7rem;
     position: absolute;
     top: 0;
     right: 0;
@@ -174,7 +175,7 @@ body {
     top: 25px;
     width: 600px;
     position: absolute;
-    left: 0;
+    left: 1rem;
     margin-left: 10px;
   }
    #section5 {
@@ -183,7 +184,7 @@ body {
     margin-left: 10px;
     background-color: rgb(130, 114, 139);
     left: 0rem;
-    width: 78.5rem;
+    width: 81.7rem;
     height: 20rem;
     top: 72.5rem;
   }
@@ -193,7 +194,7 @@ body {
     font-size: 45px;
     color: white;
     position: absolute;
-    left: 35rem;
+    left: 38rem;
     top:1rem;
   }
   #section5 hr {
@@ -203,12 +204,12 @@ body {
     width: 10%;
     margin-top: 215px;
     position: absolute;
-    left: 36.3rem;
+    left: 38.3rem;
   }
    #section6 {
     background-color: rgb(212, 206, 201);
     position: absolute;
-    width: 78.5rem;
+    width: 81.7rem;
     height: 25rem;
     z-index: 1;
     margin-left: 10px;
@@ -225,7 +226,7 @@ body {
     margin-right: 10px;
   }
   #section6 #poetry {
-    width: 40rem;
+    width: 43rem;
     height: 25rem;
     position: absolute;
     left: 0;
@@ -237,7 +238,7 @@ body {
     margin-left: 10px;
     background-color: rgb(130, 114, 139);
     left: 0rem;
-    width: 78.5rem;
+    width: 81.7rem;
     height: 20rem;
     top: 117rem;
   }
@@ -246,7 +247,7 @@ body {
     font-size: 45px;
     color: white;
     position: absolute;
-    left: 36rem;
+    left: 38rem;
     top:1rem;
   }
   #section7 hr {
@@ -256,12 +257,12 @@ body {
     width: 10%;
     margin-top: 215px;
     position: absolute;
-    left: 36.3rem;
+    left: 38.3rem;
   }
   #section8 {
     background-color: rgb(212, 206, 201);
     position: absolute;
-    width: 78.5rem;
+    width: 81.7rem;
     height: 25rem;
     z-index: 1;
     margin-left: 10px;
@@ -269,7 +270,7 @@ body {
     top:136.7rem;
   }
   #section8 #chem {
-    width: 40rem;
+    width: 43rem;
     height: 25rem;;
     position: absolute;
     top: 0;
