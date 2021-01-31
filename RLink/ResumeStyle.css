@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light:regular);
 @import url(https://fonts.googleapis.com/css?family=Suranna:regular);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic);
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -11,6 +12,82 @@
 div {
     flex-basis: 100%;
 }
+body {
+    background-color: rgb(206, 196, 194);
+    font-family: 'Shadows Into Light';
+    overflow-x: hidden;
+    margin: 17px;
+  }
+  
+  body::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+  
+  html, body, h1 {
+    min-width: 320px;
+  }
+  
+  h1 {
+    color: white;
+    font-family: 'Shadows Into Light';
+    font-size: 140%;
+    width: 15%;
+    left: 32px;
+    z-index: 5;
+    bottom: 0px;
+    position: absolute;
+    height: 30px;
+    text-decoration: none;
+  }
+  
+  h1 a {
+    text-decoration: none;
+  }
+
+  #navigationbar {
+    color: white;
+    font-size: 140%;
+    font-family: 'Suranna';
+    background-color: rgb(36, 52, 85);
+    cursor: pointer;
+    position: fixed;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 98%;
+    left: 2px;
+    top: 0;
+    z-index: 2;
+    height: 60px;
+  }
+  #navigationbar li {
+    float: right;
+    right: 10px;
+  }
+  
+  #navigationbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #navigationbar a {
+    color: white;
+    right: 10%;
+    top: -10px;
+  }
 
 @media (min-width: 600px) {
     main {
