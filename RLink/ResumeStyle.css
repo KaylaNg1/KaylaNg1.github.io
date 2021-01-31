@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light:regular);
 @import url(https://fonts.googleapis.com/css?family=Suranna:regular);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic);
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -11,6 +12,261 @@
 div {
     flex-basis: 100%;
 }
+body {
+    background-color: rgb(206, 196, 194);
+    font-family: 'Suranna';
+    overflow-x: hidden;
+    margin: 17px;
+  }
+  
+  body::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+  
+  html, body, h1 {
+    min-width: 320px;
+  }
+  
+  h1 {
+    color: white;
+    font-family: 'Shadows Into Light';
+    font-size: 140%;
+    width: 15%;
+    left: 32px;
+    z-index: 5;
+    bottom: 0px;
+    position: absolute;
+    height: 30px;
+    text-decoration: none;
+  }
+  
+  h1 a {
+    text-decoration: none;
+  }
+
+  #navigationbar {
+    color: white;
+    font-size: 140%;
+    font-family: 'Suranna';
+    background-color: rgb(36, 52, 85);
+    cursor: pointer;
+    position: fixed;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 81.7rem;
+    left: 0rem;
+    top: 0;
+    z-index: 2;
+    height: 60px;
+  }
+  #navigationbar li {
+    float: right;
+    right: 10px;
+  }
+  
+  #navigationbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #navigationbar a {
+    color: white;
+    right: 10%;
+    top: -10px;
+  }
+  #section1 {
+     position: absolute;
+      width: 81.7rem;
+     height: 19rem;
+      z-index: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: rgb(130, 114, 139);
+        left: 0rem;
+        top:3.5rem;
+    }
+
+   #section2 {
+        position: absolute;
+        width: 35rem;
+        height: 119rem;
+        z-index: 1;
+        margin-left: 20px;
+        background-color: rgb(212, 206, 201);
+        left: 45rem;
+        top: 3.5rem
+    }
+#section2 h4 {
+        color: rgb(115, 119, 167);
+        font-size: 50px;
+        top: 20px;
+        margin: 20px;
+    }
+    #section2 #wE {
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        position: absolute;
+        margin-top: 39.5%;
+    }
+    #section2 #aH {
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        position: absolute;
+        margin-top:84%;
+    }
+    #section2 h6 {
+        color: white;
+        font-size: 17px;
+        margin: 20px;
+        margin-top: 26.5%;
+        margin-bottom: 20px;
+        font-family: 'Merriweather';
+        position: absolute;
+    }
+    #section2 #sR {
+        margin-top: 55.5%;
+        position: absolute;
+    }
+    #section2 p {
+        font-size: 13px;
+        position: absolute;
+        margin-left: 20px;
+        color: white;
+        font-family: 'Merriweather';
+        margin-top: 26rem;
+   
+    }
+    #section2 #year1 {
+        font-size: 15px;
+        margin: 20px;
+        color: rgb(130, 114, 139);
+        font-family: 'Merriweather';
+        position: absolute;
+        margin-top: 64%;
+    }
+
+    #section2 #year2 {
+        font-size: 15px;
+        margin: 20px;
+        color: rgb(130, 114, 139);
+        font-family: 'Merriweather';
+        position: absolute;
+        margin-top: 110%;
+    }
+    #section2 #grey {
+        color: rgb(130, 114, 139);
+    }
+    #section2 #hS {
+        position: absolute;
+        margin-top: 100%;
+    }
+    #section2 hr {
+        height: 5px;
+        width: 99.5%;
+        background-color: white;
+        z-index: 5;
+        position: absolute;
+        top: 12rem;
+    }
+    #section2 #line2 {
+        height: 5px;
+        width: 99.5%;
+        background-color: white;
+        z-index: 5;
+        position: absolute;
+        top: 28rem;
+    }
+    #section2 ul {
+        list-style-type: none;
+        color: white;
+        position: absolute;
+        margin-top: 117%;
+    }
+    #section2 ul>li {
+        text-indent: -20px;
+    }
+    #section2 ul>li:before {
+        content: "-";
+        text-indent: -20px;
+    }
+    #section3 {
+        z-index: 1;
+        background-color: rgb(115, 119, 167);
+        position: absolute;
+        width: 81.7rem;
+        height: 100rem;
+        z-index: 0;
+        margin-left: 10px;
+        left: 0rem;
+        top: 22.4rem;
+    }
+    #section3 .text {
+        margin-top: 20rem;
+        margin-left: 100px;
+        position: absolute;
+    }
+    #section3 h5 {
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+    }
+    #section3 #year {
+        font-size: 15px;
+        margin: 20px;
+        color: white;
+        font-family: 'Merriweather';
+        margin-bottom: 5px;
+    }
+    #section3 p {
+        font-size: 13px;
+        margin: 20px;
+        color: white;
+        font-family: 'Merriweather';
+        margin-top: 15px;
+        width: 500px;
+    }
+    #section3 ul {
+        list-style-type: none;
+        color: white;
+        margin-top: 5px;
+    }
+    #section3 ul>li {
+        text-indent: -20px;
+    }
+    #section3 ul>li:before {
+        content: "-";
+        text-indent: -20px;
+    }
+    #section3 #interests {
+        margin-top: -10px;
+    }
+    #self {
+        margin: 20px;
+        width: 25rem;
+        height: 25%;
+        position: relative;
+        margin-top: -15rem;
+        margin-left: 100px;
+        margin-bottom: 200px;
+        z-index:2;
+    }
 
 @media (min-width: 600px) {
     main {
@@ -423,47 +679,5 @@ div {
         font-size: 20px;
         font-family: 'Suranna';
         position: relative;
-    }
-    @media only screen and (max-width: 960px) {
-        .left {
-            top: 55px;
-            left: 135px;
-            width: 40%;
-        }
-        #list1 {
-            top: 50%;
-            left: -140px;
-        }
-        #eTitle {
-            top: -100px;
-            left: -120px;
-        }
-        .right {
-            top: -291px;
-            left: 462px;
-            right: -8px;
-            width: 35%;
-            height: 60%;
-        }
-        #aTitle {
-            top: -100px;
-            left: -130px;
-        }
-        #list2 {
-            top: 50%;
-            left: -140px;
-        }
-        .left2 {
-            top: -305px;
-            left: 135px;
-            width: 35%;
-        }
-        .right2 {
-            position: relative;
-            top: -780px;
-            left: 590px;
-            width: 40%;
-            height: 80%;
-        }
     }
 }
