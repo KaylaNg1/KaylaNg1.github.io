@@ -154,8 +154,8 @@ body {
   #self {
     z-index: 2;
     position: relative;
-    left: 20rem;
-    top:49rem;
+    left: 40rem;
+    top:50rem;
     position: absolute;
     width: 20rem;
     border: 10px solid white;
@@ -164,6 +164,7 @@ body {
   border-width: 10px;
   border-radius:  10px;*/
   }
+
 
 @media (min-width: 600px) {
   main {
