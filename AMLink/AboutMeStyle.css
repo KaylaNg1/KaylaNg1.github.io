@@ -92,7 +92,7 @@ body {
   
   .topic {
     position: absolute;
-    width: 80.7rem;
+    width: 70.7rem;
     height: 20rem;
     z-index: 1;
     margin-left: 10px;
@@ -111,7 +111,7 @@ body {
   }
   .paragraph {
     position: absolute;
-    width: 80.7rem;
+    width: 70.7rem;
     height: 60rem;
     top: 22.9rem;
     z-index: 1;
@@ -133,7 +133,7 @@ body {
     /*font-family: 'Ribeye';*/
     font-family: 'Suranna';
     text-align: left;
-    width: 70rem;
+    width: 50rem;
     left: 3rem;
   }
   #bio {
@@ -144,7 +144,7 @@ body {
     /*font-family: 'Ribeye';*/
     font-family: 'Suranna';
     text-align: left;
-    width: 50rem;
+    width: 40rem;
     left: 50px;
   }
   h4 {
@@ -154,7 +154,7 @@ body {
   #self {
     z-index: 2;
     position: relative;
-    left: 58rem;
+    left: 45rem;
     top: 15rem;
     position: absolute;
     width: 20rem;
