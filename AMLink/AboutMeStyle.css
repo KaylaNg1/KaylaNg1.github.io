@@ -92,7 +92,7 @@ body {
   
   .topic {
     position: absolute;
-    width: 70.7rem;
+    width: 60.7rem;
     height: 20rem;
     z-index: 1;
     margin-left: 10px;
@@ -111,8 +111,8 @@ body {
   }
   .paragraph {
     position: absolute;
-    width: 70.7rem;
-    height: 60rem;
+    width: 60.7rem;
+    height: 80rem;
     top: 22.9rem;
     z-index: 1;
     margin-left: 10px;
@@ -154,8 +154,8 @@ body {
   #self {
     z-index: 2;
     position: relative;
-    left: 45rem;
-    top: 15rem;
+    left: 20rem;
+    top:49rem;
     position: absolute;
     width: 20rem;
     border: 10px solid white;
