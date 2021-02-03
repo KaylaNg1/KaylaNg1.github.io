@@ -299,37 +299,39 @@ body {
 
   #robo {
     width: 18rem;
-    position: relative;
+    position: absolute;
     top: 147.9rem;
-    left: -0.4rem;
+    left: 0rem;
     height: 20rem;
     object-fit: cover;
+    margin-left: 10;
   }
   
   #piano {
     width: 18rem;
-    position: relative;
-    top: 119.96rem;
-    left: 16.62rem;
+    position: absolute;
+    top: 147.9rem;
+    left: 17.62rem;
     height: 20rem;
     object-fit: cover;
   }
   
   #snowBoard {
     width: 18rem;
-    position: relative;
-    top: 85.8rem;
-    left: 34.5rem;
+    position: absolute;
+    top: 147.9rem;
+    left: 34.9rem;
     height: 20rem;
     object-fit: cover;
   }
   
   #fencingGroup {
     width: 17rem;
-    position: relative;
-    top: 48rem;
-    left: 52rem;
+    position: absolute;
+    top: 147.9rem;
+    left: 53rem;
     height: 20rem;
+    
   }
   
   #self2{
