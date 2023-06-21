@@ -204,10 +204,6 @@ body{
     }
 }
 
-/* #about-me{
-    margin-left:250px;
-} */
-
 #about-me:hover, #portfolio:hover{
     cursor: pointer;
     animation:wiggle 5s linear infinite;
@@ -716,11 +712,11 @@ body{
         }
         48% {
             top: -2.8rem;
-          width: 170px;
+          width: 180px;
         }
         62% {
             top: -2.8rem;
-            width: 170px;
+            width: 180px;
         }
     
         66% {
@@ -903,11 +899,11 @@ body{
         }
         48% {
             top: -2.8rem;
-          width: 170px;
+          width: 180px;
         }
         62% {
             top: -2.8rem;
-            width: 170px;
+            width: 180px;
         }
     
         66% {
@@ -1090,11 +1086,11 @@ body{
         }
         48% {
             top: -2.8rem;
-          width: 170px;
+          width: 180px;
         }
         62% {
             top: -2.8rem;
-            width: 170px;
+            width: 180px;
         }
     
         66% {
