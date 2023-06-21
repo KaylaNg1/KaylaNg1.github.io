@@ -12,19 +12,6 @@ body{
     scroll-behavior: smooth;
 }
 
-/* width
-::-webkit-scrollbar {
-    width: 10px;
-} */
-/* Track */
-/* ::-webkit-scrollbar-track {
-    background: transparent;
-} */
-
-/* ::-webkit-scrollbar-thumb {
-    background: #6D6875; 
-} */
-
 .topNav{
     position:sticky;
     overflow: hidden;
@@ -300,6 +287,19 @@ button:hover{
       transform: rotateZ(0);
     }
 }
+
+.anim{
+    opacity:0;
+    transform: translateY(30px);
+    animation: moveup 0.8s linear forwards;
+  }
+  
+  @keyframes moveup{
+    100%{
+      opacity:1;
+      transform:translateY(0px);
+    }
+  }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 530px) {     

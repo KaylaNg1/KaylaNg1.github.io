@@ -209,6 +209,19 @@ body{
     animation:wiggle 5s linear infinite;
     text-decoration-style:none;
 }
+
+.anim{
+  opacity:0;
+  transform: translateY(30px);
+  animation: moveup 0.8s linear forwards;
+}
+
+@keyframes moveup{
+  100%{
+    opacity:1;
+    transform:translateY(0px);
+  }
+}
 /* 420-529 */
 @media only screen and (max-width: 530px) {  
     .topNav{
