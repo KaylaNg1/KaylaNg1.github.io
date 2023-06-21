@@ -344,6 +344,7 @@ button:hover{
     }
 
     .resume h2{
+        padding-left:10px;
         font-size: 35px;
     }
 
@@ -446,6 +447,7 @@ button:hover{
 
     .resume h2{
         font-size: 35px;
+        padding-left:20px;
     }
 
     .info3 h2{
