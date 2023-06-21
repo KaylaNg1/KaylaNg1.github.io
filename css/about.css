@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Bagel+Fat+One');
+
+* {
+    box-sizing: border-box;
+}
+  
+body{
+    margin:0;
+    overflow-x: hidden;
+    background-color:#B5838D;
+    scroll-behavior: smooth;
+}
+
+.topNav{
+    position:sticky;
+    overflow: hidden;
+    background-color:transparent;
+    font-family:'Quicksand';
+    text-align:center;
+    display:flex;
+    justify-content: center;
+}
+
+.topNav a{
+    text-align: center;
+    padding: 2vh 6vw; /* top/bottom padding is first, right/left is second num*/
+    text-decoration: none;
+    color:#6D6875;
+}
+
+#about-me-page{
+    text-decoration:underline;
+    color:#6D6875;
+}
+
+.topNav a:hover{
+    text-decoration:underline;
+    color:#6D6875;
+}
+
+.header{
+    display:flex;
+    position:relative;
+    width:100%;
+    text-align:center;
+    justify-content: center;
+    margin-top: 100px;
+    color: #6D6875;
+    height:700px;
+    background: url('images/aboutme.png') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#name{
+    color: #6D6875;
+    font-family:"Bagel Fat One";
+    width:auto;
+    height:150px;
+	-webkit-text-stroke: 1px #917681;
+	text-shadow: 4px 2px 2px #FFCDB2;
+}
+
+.aboutme{
+    display:flex;
+    position:relative;
+    width:100%;
+    height:auto;
+    top:100%;
+    color: #6D6875;
+    background-color:#FFCDB2;
+}
+
+#title{
+    position:absolute;
+    float:left;
+    padding:20px;
+    font-family:"Bagel Fat One";
+    color: #E5989B;
+    top:0;
+    width:100%;
+}
+
+.info{
+    position:relative;
+    bottom:0;
+    font-family:'Quicksand';
+    float:left;
+    margin-top: 200px;
+    padding-left:20px;
+    color: #E5989B;
+    text-align:left;
+}
+
+.info span{
+    font-family:'Quicksand Bold';
+}
+
+.info2 {
+    background-color:#FFDAB9;
+    display:flex;
+    position:relative;
+    width:100%;
+}
+
+.info2 h1{
+    position:absolute;
+    text-align:right;
+    float:right;
+    padding:20px;
+    font-family:"Bagel Fat One";
+    color: #F4978E;
+    top:0;
+    width:100%;
+    height:auto;
+}
+
+.resume{
+    position:relative;
+    bottom:0;
+    font-family:'Quicksand';
+    float:left;
+    margin-top: 200px;
+    color: #F4978E;
+    width:100%;
+    padding-bottom:20px;
+}
+
+.resume h2{
+    font-family:"Bagel Fat One";
+    padding-left:20px;
+    float:left;
+    text-align:left;
+}
+
+.education{
+    position:relative;
+    width:100%;
+    height:auto;
+    float:left;
+}
+
+hr{
+    height:5px;
+    border-width:0;
+    background-color: #F4978E;
+    width:100%;
+}
+
+.half1{
+    position:relative;
+    max-width:70%;
+    float:left;
+    text-align:left;
+    height:auto;
+}
+
+#whole{
+    width:100%;
+}
+
+.half2{
+    position:relative;
+    max-width:30%;
+    float:right;
+    text-align:right;
+    padding-right:20px;
+    height:auto;
+}
+
+.other{
+    position:relative;
+    width:100%;
+    float:left;
+    text-align:left;
+}
+
+#sub{
+    margin-top:-10px;
+}
+
+.experience, .leadership, .projects{
+    float:left;
+    position:relative;
+    width:100%;
+    height:auto;
+}
+
+.info3{
+    position:relative;
+    background-color:#B5838D;
+    display:flex;
+    width:100%;
+    height:300px;
+    color: #6D6875 ;
+}
+
+.info3 h1{
+    text-align:center;
+    font-family:"Bagel Fat One";
+    top:0px;
+    width:100%;
+    position:absolute;
+    padding:20px;
+    font-family:"Bagel Fat One";
+    width:100%;
+    height:auto;
+}
+
+.more{
+    position:absolute;
+    font-family:'Quicksand';
+    width:100%;
+    justify-content:center;
+    text-align:center;
+    bottom:0;
+}
+
+.info3 h2{
+    position:relative;
+    text-align:center;
+    width:100%;
+}
+
+.button{
+    display:flex;
+    position:relative;
+    margin-top: 50px;
+    width:100%;
+    justify-content:center;
+    text-align:center;
+    padding-bottom:20px;
+    text-decoration:none;
+}
+
+button{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border-radius:25px;
+    width: 120px;
+    height: 35px;
+    color:#6D6875 ;
+    font-family:"Bagel Fat One"; 
+    font-size:20px;
+    font-style:bold;
+    background-color:transparent;
+    border: 4px solid #6D6875;
+    text-decoration:none;
+}
+
+.button a{
+    text-decoration: none;
+}
+
+button:hover{
+    cursor: pointer;
+    animation:wiggle 5s linear infinite;
+    text-decoration:none;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 530px) {     
+    .topNav a{
+        font-size: 1em;
+    }
+
+    .header{
+        height:400px;
+        background: url('images/aboutme.png') no-repeat center center; 
+        background-size: contain;
+        margin-top:50px;
+    }
+
+    #name{
+        font-size: 60px;
+    }
+
+    #name span{
+        margin-right: 20px;
+    }
+
+        #title, .info2 h1, .info3 h1{
+        font-size: 40px;
+    }
+
+    .resume h2{
+        font-size: 35px;
+    }
+
+    .info h3{
+        margin-top:-50px;
+        font-size:20px
+    }
+}
+
+@media only screen and (max-width:420px){ 
+    /* Smaller Screen Prioirty */
+    .topNav a{
+        font-size: 1em;
+    }
+
+    .header{
+        height:400px;
+        background: url('images/aboutme.png') no-repeat center center; 
+        background-size: contain;
+        margin-top:50px;
+        /* background-color:green; */
+    }
+
+    #name{
+        font-size: 60px;
+    }
+
+    #name span{
+        margin-right: 20px;
+    }
+
+        #title, .info2 h1, .info3 h1{
+        font-size: 40px;
+    }
+
+    .resume h2{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 530px) {   
+    .topNav a{
+        font-size: 1.1em;
+    }
+
+    .header{
+        height:400px;
+        background: url('images/aboutme.png') no-repeat center center; 
+        background-size: contain;
+        margin-top:60px;
+    }
+
+    #name{
+        font-size: 70px;
+    }
+
+    #name span{
+        margin-right: 20px;
+    }
+
+    #title, .info2 h1, .info3 h1{
+        font-size: 40px;
+    }
+
+    .aboutme h3{
+        margin-top:-40px;
+    }
+
+    .resume h2{
+        font-size: 20px;
+    }
+
+    .resume h3{
+        padding-left:20px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .topNav a{
+        font-size: 1.2em;
+    }
+
+    .header{
+        height:450px;
+        background: url('images/aboutme.png') no-repeat center center; 
+        background-size: contain;
+        margin-top:60px;
+    }
+
+    #name{
+        font-size: 90px;
+        margin-top:0;
+    }
+
+    #name span{
+        margin-right: 20px;
+    }
+
+    #title, .info2 h1, .info3 h1{
+        font-size: 50px;
+    }
+
+    .resume h2{
+        font-size: 30px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .topNav a{
+        font-size: 1.2em;
+    }
+
+    .header{
+        height:400px;
+        background: url('images/aboutme.png') no-repeat center center; 
+        background-size: contain;
+        margin-top:80px;
+    }
+
+    #name{
+        font-size: 110px;
+        margin-top:-10px;
+    }
+
+    #name span{
+        margin-right: 20px;
+    }
+
+    #title, .info2 h1, .info3 h1{
+        font-size: 60px;
+    }
+
+    .resume h2{
+        font-size: 40px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) { 
+    .topNav a{
+        font-size: 1.3em;
+    }
+
+    .header{
+        margin-top: 40px;
+        height:720px;
+        background: url('images/aboutme.png') no-repeat center center; 
+        background-size: contain;
+    }
+
+    #name{
+        margin-top:0px;
+        font-size: 150px;
+    }
+
+    #name span{
+        margin-right: 20px;
+    }
+
+    .aboutme h3{
+        margin-top:0;
+    }
+
+    #title, .info2 h1, .info3 h1{
+        font-size: 70px;
+    }
+
+    .resume h2{
+        font-size: 50px;
+    }
+}
+
+
