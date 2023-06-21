@@ -12,6 +12,19 @@ body{
     scroll-behavior: smooth;
 }
 
+/* width
+::-webkit-scrollbar {
+    width: 10px;
+} */
+/* Track */
+/* ::-webkit-scrollbar-track {
+    background: transparent;
+} */
+
+/* ::-webkit-scrollbar-thumb {
+    background: #6D6875; 
+} */
+
 .topNav{
     position:sticky;
     overflow: hidden;
@@ -96,7 +109,7 @@ body{
 }
 
 .info span{
-    font-family:'Quicksand Bold';
+    font-family:'Quicksand';
 }
 
 .info2 {
@@ -309,17 +322,36 @@ button:hover{
         margin-right: 20px;
     }
 
-        #title, .info2 h1, .info3 h1{
+    .info h3, .info2 h3, .info2 li{
+        font-size:17px
+    }
+
+    #title, .info2 h1, .info3 h1{
         font-size: 40px;
+    }
+
+    .half1{
+        padding-left:10px;
+    }
+
+    .other{
+        padding-left: 10px;
+    }
+
+    .half2{
+        padding-right:10px;
     }
 
     .resume h2{
         font-size: 35px;
     }
 
-    .info h3{
-        margin-top:-50px;
-        font-size:20px
+    .info3 h2{
+        font-size: 25px;
+    }
+
+    .info3 h1{
+        margin-top: 0;
     }
 }
 
@@ -345,12 +377,32 @@ button:hover{
         margin-right: 20px;
     }
 
-        #title, .info2 h1, .info3 h1{
+    .info h3, .info2 h3, .info2 li{
+        font-size:15px
+    }
+
+    #title, .info2 h1, .info3 h1{
         font-size: 40px;
     }
 
-    .resume h2{
+    .half1{
+        padding-left:10px;
+    }
+
+    .other{
+        padding-left: 10px;
+    }
+
+    .half2{
+        padding-right:10px;
+    }
+
+    .resume h2, .info3 h2{
         font-size: 20px;
+    }
+
+    .info3 h1{
+        margin-top: 0;
     }
 }
 
@@ -374,20 +426,33 @@ button:hover{
         margin-right: 20px;
     }
 
-    #title, .info2 h1, .info3 h1{
-        font-size: 40px;
-    }
-
     .aboutme h3{
         margin-top:-40px;
     }
 
-    .resume h2{
-        font-size: 20px;
+    .resume h3{
+        padding-left:10px;
     }
 
-    .resume h3{
-        padding-left:20px;
+
+    .info h3, .info2 h3, .info2 li{
+        font-size:17px
+    }
+
+    #title, .info2 h1, .info3 h1{
+        font-size: 40px;
+    }
+
+    .resume h2{
+        font-size: 35px;
+    }
+
+    .info3 h2{
+        font-size: 25px;
+    }
+
+    .info3 h1{
+        margin-top: 25px;
     }
 }
 
@@ -413,12 +478,40 @@ button:hover{
         margin-right: 20px;
     }
 
+    .resume h2{
+        font-size: 30px;
+    }
+
+    .info h3, .info2 h3, .info2 li{
+        font-size:20px
+    }
+
     #title, .info2 h1, .info3 h1{
         font-size: 50px;
     }
 
+    .half1{
+        padding-left:10px;
+    }
+
+    .other{
+        padding-left: 10px;
+    }
+
+    .half2{
+        padding-right:10px;
+    }
+
     .resume h2{
-        font-size: 30px;
+        font-size: 35px;
+    }
+
+    .info3 h2{
+        font-size: 25px;
+    }
+
+    .info3 h1{
+        margin-top: 0;
     }
 }
 
@@ -450,6 +543,36 @@ button:hover{
 
     .resume h2{
         font-size: 40px;
+    }
+
+
+    .info h3, .info2 h3, .info2 li{
+        font-size:20px
+    }
+
+
+    .half1{
+        padding-left:10px;
+    }
+
+    .other{
+        padding-left: 10px;
+    }
+
+    .half2{
+        padding-right:10px;
+    }
+
+    .resume h2{
+        font-size: 35px;
+    }
+
+    .info3 h2{
+        font-size: 25px;
+    }
+
+    .info3 h1{
+        margin-top: 0;
     }
 }
 
