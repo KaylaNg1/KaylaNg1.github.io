@@ -72,7 +72,7 @@ body {
     height: auto;
     top: 100%;
     color: #6D6875;
-    background-color: #FFCDB2;
+    background-color: #917681;
     padding:20px;
 }
 
@@ -81,7 +81,7 @@ body {
     float: left;
     padding: 20px;
     font-family: "Bagel Fat One";
-    color: #E5989B;
+    color: #FFB4A2;
     top: 0;
     width: 100%;
 }
@@ -94,7 +94,7 @@ body {
     margin-top: 200px;
     padding-left: 20px;
     padding-right: 20px;
-    color: #E5989B;
+    color: #FFB4A2;
     text-align: left;
     max-width: 60rem;
 }
@@ -104,7 +104,7 @@ body {
 }
 
 .info2 {
-    background-color: #FFDAB9;
+    background-color: #7F6F7B;
     display: flex;
     position: relative;
     width: 100%;
@@ -116,7 +116,7 @@ body {
     float: right;
     padding: 20px;
     font-family: "Bagel Fat One";
-    color: #F2A69F;
+    color: #FFCDB2;
     top: 0;
     width: 100%;
     height: auto;
@@ -128,7 +128,7 @@ body {
     font-family: 'Quicksand';
     float: left;
     margin-top: 200px;
-    color: #F2A69F;
+    color: #FFCDB2;
     width: 100%;
     padding-bottom: 20px;
 }
