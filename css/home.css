@@ -411,7 +411,7 @@ body {
   .buttons {
     position: absolute;
     bottom: 0;
-    margin-bottom: -220px;
+    margin-bottom: -240px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -614,7 +614,7 @@ body {
   .buttons {
     position: absolute;
     bottom: 0;
-    margin-bottom: -220px;
+    margin-bottom: -240px;
     display: flex;
     justify-content: center;
     text-align: center;
