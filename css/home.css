@@ -1012,7 +1012,7 @@ body {
   .buttons {
     position: absolute;
     bottom: 0;
-    margin-bottom: -280px;
+    margin-bottom: -260px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -1210,7 +1210,7 @@ body {
   .buttons {
     position: absolute;
     bottom: 0;
-    margin-bottom: -320px;
+    margin-bottom: -360px;
     display: flex;
     justify-content: center;
     text-align: center;
