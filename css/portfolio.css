@@ -62,7 +62,7 @@ body {
 
 .portfolio h1 {
     font-family: "Bagel Fat One";
-    color: #E5989B;
+    color: #FFB4A2;
     padding: 20px;
 }
 
@@ -95,7 +95,7 @@ figure {
 .products h1 {
     position: relative;
     width: 100%;
-    color: #E5989B;
+    color: #FFB4A2;
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 600;
@@ -123,8 +123,8 @@ figure {
     font-family: "Quicksand";
     font-size: 15px;
     font-style: bold;
-    border: 4px solid #FFCDB2;
-    background-color: #E5989B;
+    border: 4px solid #FFB4A2;
+    background-color: transparent;
     color: #FFCDB2;
 }
 
