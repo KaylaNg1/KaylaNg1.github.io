@@ -136,7 +136,17 @@ li a {
   font-size: 20px;
 }
 
+li a:active{
+  color: #EFF6E0;
+  text-decoration: none;
+}
+
 li a:hover {
+  color: #EFF6E0;
+  text-decoration: none;
+}
+
+li a:visited {
   color: #EFF6E0;
   text-decoration: none;
 }
@@ -173,6 +183,9 @@ li a::after {
     overflow-y: visible;
     height:fit-content;
     height:100vh;
+  }
+  html{
+    overflow-y: visible;
   }
   li{
     width:100%;
