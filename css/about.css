@@ -62,10 +62,11 @@ body {
         font-size: 20px;
     }
 
-    a :active, a:link, a:hover, a :visited{
+    a :link, a:visited, a:hover, a:active{
         color: #EFF6E0;
         text-decoration: none;
     }
+    
     li a:hover .glow {
         color: #EFF6E0;
         text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc !important;

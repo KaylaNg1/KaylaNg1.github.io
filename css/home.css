@@ -136,17 +136,7 @@ li a {
   font-size: 20px;
 }
 
-li a:active{
-  color: #EFF6E0;
-  text-decoration: none;
-}
-
-li a:hover {
-  color: #EFF6E0;
-  text-decoration: none;
-}
-
-li a:visited {
+a :link, a:visited, a:hover, a:active{
   color: #EFF6E0;
   text-decoration: none;
 }
