@@ -2,6 +2,7 @@
 let intro = document.querySelector('.intro');
 let logo = document.querySelector('.logo-header');
 let logoSpan = document.querySelectorAll('.logo');
+const alerted = false;
 
 window.addEventListener("DOMContentLoaded", () => {
   setTimeout(() => {
@@ -23,8 +24,13 @@ window.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => {
       intro.style.top = '-100vh';
     }, 2300)
-  })
+  });
+  if (!alerted){
+    window.alert("Hi there, Kayla here! Thank you so much for taking the time out of your day to visit my website :) I am currently fixing some stylization issues & bugs so if you experience any visual + functional mishaps at this time, I apologize!")
+    alerted = true;
+  }
 })
+
 
 // dynamic portfolio page
 let json = {
