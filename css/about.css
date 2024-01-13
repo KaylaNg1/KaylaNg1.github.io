@@ -78,7 +78,7 @@ body {
         text-decoration: none;
     }
 
-    #aboutme .glow {
+    #aboutmeLink .glow {
         color: #EFF6E0;
         text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc !important;
     }
