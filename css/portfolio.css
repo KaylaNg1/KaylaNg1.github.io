@@ -73,6 +73,8 @@ body {
 
     li a::after {
         content: ★;
+        color: #EFF6E0;
+        text-decoration: none;
     }
 
     #portfolio .glow {
