@@ -51,7 +51,7 @@ body {
         display: inline-block;
     }
 
-    li a {
+    a {
         display: block;
         text-align: center;
         padding: 14px 16px;
@@ -62,21 +62,10 @@ body {
         font-size: 20px;
     }
 
-    li a:active{
+    a :active, a:link, a:hover, a :visited{
         color: #EFF6E0;
         text-decoration: none;
     }
-
-    li a:hover {
-        color: #EFF6E0;
-        text-decoration: none;
-    }
-
-    li a:visited {
-        color: #EFF6E0;
-        text-decoration: none;
-    }
-
     li a:hover .glow {
         color: #EFF6E0;
         text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc !important;
