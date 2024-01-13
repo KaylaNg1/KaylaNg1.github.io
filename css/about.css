@@ -1,140 +1,145 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 @import url('https://fonts.googleapis.com/css?family=Bagel+Fat+One');
+@import url("https://fonts.cdnfonts.com/css/pecita");
 
 * {
     box-sizing: border-box;
 }
 
-body {
-    margin: 0;
-    overflow-x: hidden;
-    background-color: #B5838D;
+html {
     scroll-behavior: smooth;
 }
 
-.topNav {
-    position: sticky;
-    overflow: hidden;
-    background-color: transparent;
-    font-family: 'Quicksand';
-    text-align: center;
-    display: flex;
-    justify-content: center;
+body {
+    background-color: #01161e;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
-.topNav a {
-    text-align: center;
-    padding: 2vh 6vw;
-    /* top/bottom padding is first, right/left is second num*/
-    text-decoration: none;
-    color: #FFCDB2;
+.overlay {
+    position: relative;
+    width: 100%;
+    display: inline-block;
 }
 
-#about-me-page {
-    text-decoration: underline;
-    color: #FFCDB2;
-}
-
-.topNav a:hover {
-    text-decoration: underline;
-    color: #FFCDB2;
-}
-
-.header {
-    display: flex;
+.brand {
     position: relative;
     width: 100%;
     text-align: center;
-    justify-content: center;
-    margin-top: 100px;
+}
+
+.brand a {
+    font-family: 'Pecita', sans-serif;
+    font-size: 60px;
+    z-index: 2;
+    color: #EFF6E0;
+    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+    text-decoration: none;
+}
+
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.navBar {
+    li {
+        display: inline-block;
+    }
+
+    li a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-decoration: none;
+        color: #EFF6E0;
+        font-size: 20px;
+    }
+
+    li a:hover {
+        color: #EFF6E0;
+        text-decoration: none;
+    }
+
+    li a:hover .glow {
+        color: #EFF6E0;
+        text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+    }
+
+    li a::after {
+        content: ★;
+    }
+
+    #aboutme .glow {
+        color: #EFF6E0;
+        text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+    }
+}
+
+.header {
+    position: relative;
+    text-align: center;
     color: #6D6875;
-    height: 700px;
-    background: url('images/aboutme.jpg') no-repeat center center;
+    background: url('images/aboutme.png') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    margin-top: -50px;
 }
 
 #name {
-    color: #6D6875;
-    font-family: "Bagel Fat One";
+    color: #124559;
     width: auto;
-    height: 150px;
-    -webkit-text-stroke: 1px #917681;
-    text-shadow: 4px 2px 2px #FFCDB2;
+    -webkit-text-stroke: 1px #598392;
+    text-shadow: 4px 2px 2px #AEC3B0;
 }
 
 .aboutme {
-    display: flex;
     position: relative;
     width: 100%;
-    height: auto;
-    top: 100%;
-    color: #6D6875;
-    background-color: #917681;
-    padding:20px;
+    color: #EFF6E0;
+    background-color: #598392;
+    padding: 10px;
+    text-align: left;
+    margin-top:50px;
 }
 
-#title {
-    position: absolute;
-    float: left;
+.aboutme h1 {
     padding: 20px;
-    font-family: "Bagel Fat One";
-    color: #FFB4A2;
-    top: 0;
     width: 100%;
 }
 
-.info {
-    position: relative;
-    bottom: 0;
-    font-family: 'Quicksand';
-    float: left;
-    margin-top: 200px;
+.aboutme .info {
+    position:relative;
     padding-left: 20px;
     padding-right: 20px;
-    color: #FFB4A2;
     text-align: left;
     max-width: 60rem;
 }
 
-.info span {
-    font-family: 'Quicksand';
-}
-
-.info2 {
-    background-color: #7F6F7B;
-    display: flex;
-    position: relative;
-    width: 100%;
-}
-
-.info2 h1 {
-    position: absolute;
-    text-align: right;
-    float: right;
-    padding: 20px;
-    font-family: "Bagel Fat One";
-    color: #FFCDB2;
-    top: 0;
-    width: 100%;
-    height: auto;
-}
-
 .resume {
+    background-color: #124559;
     position: relative;
-    bottom: 0;
-    font-family: 'Quicksand';
-    float: left;
-    margin-top: 200px;
-    color: #FFCDB2;
     width: 100%;
+    color: #AEC3B0;
     padding-bottom: 20px;
+    margin-top:-50px;
+}
+
+.resume h1 {
+    text-align: right;
+    padding: 20px;
+    width: 100%;
 }
 
 .resume h2 {
-    font-family: "Bagel Fat One";
     padding-left: 20px;
     float: left;
     text-align: left;
@@ -143,24 +148,22 @@ body {
 .education {
     position: relative;
     width: 100%;
-    height: auto;
-    float: left;
+    height: fit-content;
 }
 
 hr {
     height: 5px;
-    border-width: 0;
-    background-color: #F2A69F;
+    background-color: #EFF6E0;
     width: 100%;
 }
 
 .half1 {
-    position: relative;
+    display:inline-block;
     max-width: 70%;
-    float: left;
     text-align: left;
     height: auto;
     padding-left: 20px;
+    left:0;
 }
 
 #whole {
@@ -168,20 +171,19 @@ hr {
 }
 
 .half2 {
-    position: relative;
     max-width: 30%;
-    float: right;
     text-align: right;
     padding-right: 20px;
     height: auto;
+    float:right;
 }
 
 .other {
     position: relative;
     width: 100%;
-    float: left;
     text-align: left;
     padding-left: 20px;
+    padding-right:20px;
 }
 
 #sub {
@@ -190,37 +192,42 @@ hr {
 
 .experience,
 .leadership,
-.projects {
-    float: left;
+.projects, .skills {
     position: relative;
     width: 100%;
     height: auto;
 }
 
+.skills .info{
+    padding:10px;
+}
+
+.skills span{
+    font-style:italic;
+}
+
+
 .info3 {
     position: relative;
-    background-color: #B5838D;
+    background-color: #01161E;
     display: flex;
     width: 100%;
     height: 300px;
-    color: #6D6875;
+    color: #598392;
 }
 
 .info3 h1 {
     text-align: center;
-    font-family: "Bagel Fat One";
     top: 0px;
     width: 100%;
     position: absolute;
     padding: 20px;
-    font-family: "Bagel Fat One";
     width: 100%;
     height: auto;
 }
 
 .more {
     position: absolute;
-    font-family: 'Quicksand';
     width: 100%;
     justify-content: center;
     text-align: center;
@@ -252,12 +259,10 @@ button {
     border-radius: 25px;
     width: 120px;
     height: 35px;
-    color: #6D6875;
-    font-family: "Quicksand";
+    color: #598392;
     font-size: 20px;
-    font-style: bold;
     background-color: transparent;
-    border: 4px solid #6D6875;
+    border: 4px solid #598392;
     text-decoration: none;
 }
 
@@ -267,8 +272,21 @@ button {
 
 button:hover {
     cursor: pointer;
-    animation: wiggle 5s linear infinite;
+    animation: wiggle 3s linear infinite;
     text-decoration: none;
+}
+
+.anim {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.8s linear forwards;
+}
+
+@keyframes moveup {
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 /* Keyframes */
@@ -320,15 +338,14 @@ button:hover {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 530px) {
-    .topNav a {
-        font-size: 1em;
+    .navBar li{
+        width:100%;
     }
 
     .header {
-        height: 400px;
-        background: url('images/aboutme.jpg') no-repeat center center;
+        height: 300px;
+        background: url('images/aboutme.png') no-repeat center center;
         background-size: contain;
-        margin-top: 50px;
     }
 
     #name {
@@ -340,13 +357,17 @@ button:hover {
     }
 
     .info h3,
-    .info2 h3,
-    .info2 li {
+    .resume h3,
+    .resume li {
         font-size: 17px
     }
 
+    .languages{
+        font-size:15px;
+    }
+
     #title,
-    .info2 h1,
+    .resume h1,
     .info3 h1 {
         font-size: 40px;
     }
@@ -378,20 +399,6 @@ button:hover {
 }
 
 @media only screen and (max-width:420px) {
-
-    /* Smaller Screen Prioirty */
-    .topNav a {
-        font-size: 1em;
-    }
-
-    .header {
-        height: 400px;
-        background: url('images/aboutme.jpg') no-repeat center center;
-        background-size: contain;
-        margin-top: 50px;
-        /* background-color:green; */
-    }
-
     #name {
         font-size: 60px;
     }
@@ -401,13 +408,17 @@ button:hover {
     }
 
     .info h3,
-    .info2 h3,
-    .info2 li {
+    .resume h3,
+    .resume li {
         font-size: 15px
     }
 
+    .languages{
+        font-size:13px;
+    }
+
     #title,
-    .info2 h1,
+    .resume h1,
     .info3 h1 {
         font-size: 40px;
     }
@@ -432,19 +443,17 @@ button:hover {
     .info3 h1 {
         margin-top: 0;
     }
+
+    .aboutme{
+        margin-top: 30px;
+    }
+
+    .resume{
+        margin-top: -30px;
+    }
 }
 
 @media only screen and (min-width: 530px) {
-    .topNav a {
-        font-size: 1.1em;
-    }
-
-    .header {
-        height: 400px;
-        background: url('images/aboutme.jpg') no-repeat center center;
-        background-size: contain;
-        margin-top: 60px;
-    }
 
     #name {
         font-size: 70px;
@@ -462,15 +471,18 @@ button:hover {
         padding-left: 10px;
     }
 
-
     .info h3,
-    .info2 h3,
-    .info2 li {
+    .resume h3,
+    .resume li {
         font-size: 17px
     }
 
+    .languages{
+        font-size:15px;
+    }
+
     #title,
-    .info2 h1,
+    .resume h1,
     .info3 h1 {
         font-size: 40px;
     }
@@ -495,15 +507,11 @@ button:hover {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .topNav a {
-        font-size: 1.2em;
-    }
 
     .header {
-        height: 450px;
-        background: url('images/aboutme.jpg') no-repeat center center;
+        height: 400px;
         background-size: contain;
-        margin-top: 60px;
+        margin-top: 30px;
     }
 
     #name {
@@ -520,13 +528,17 @@ button:hover {
     }
 
     .info h3,
-    .info2 h3,
-    .info2 li {
+    .resume h3,
+    .resume li {
         font-size: 20px
     }
 
+    .languages{
+        font-size:18px;
+    }
+
     #title,
-    .info2 h1,
+    .resume h1,
     .info3 h1 {
         font-size: 50px;
     }
@@ -558,15 +570,10 @@ button:hover {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .topNav a {
-        font-size: 1.2em;
-    }
-
     .header {
         height: 400px;
-        background: url('images/aboutme.jpg') no-repeat center center;
         background-size: contain;
-        margin-top: 80px;
+        margin-top: 30px;
     }
 
     #name {
@@ -579,7 +586,7 @@ button:hover {
     }
 
     #title,
-    .info2 h1,
+    .resume h1,
     .info3 h1 {
         font-size: 60px;
     }
@@ -590,9 +597,13 @@ button:hover {
 
 
     .info h3,
-    .info2 h3,
-    .info2 li {
+    .resume h3,
+    .resume li {
         font-size: 20px
+    }
+
+    .languages{
+        font-size:18px;
     }
 
 
@@ -628,9 +639,8 @@ button:hover {
     }
 
     .header {
-        margin-top: 40px;
-        height: 720px;
-        background: url('images/aboutme.jpg') no-repeat center center;
+        margin-top: 30px;
+        height: 650px;
         background-size: contain;
     }
 
@@ -648,7 +658,7 @@ button:hover {
     }
 
     #title,
-    .info2 h1,
+    .resume h1,
     .info3 h1 {
         font-size: 70px;
     }

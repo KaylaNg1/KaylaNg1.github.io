@@ -7,34 +7,71 @@
     <title>Kayla Ng</title>
     <link rel="icon" type="image/x-icon" href="css/images/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bagel+Fat+One">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=maitree:wght@WEIGHT_OR_RANGE&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karma:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kavoon&family=Khand:wght@700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/portfolio.css" />
 </head>
 
 <body>
-    <div class="topNav">
-        <a id="home" href="index.html">HOME</a>
-        <a id="about-me-page" href="about.html">ABOUT ME</a>
-        <a id="portfolio-page" href="portfolio.html">PORTFOLIO</a>
+    <div class="overlay" style="font-family:karma">
+        <div class="brand">
+            <a href="#">Kayla Ng</a>
+        </div>
+        <ul class="navBar">
+            <li><a href="index.html" id="home"><span class="glow">★</span> home</a></li>
+            <li><a href="about.html"><span class="glow">★</span> about me</a></li>
+            <li><a href="portfolio.html" id="portfolio"><span class="glow">★</span> portfolio</a></li>
+            <!-- <li><a href="#link4"><span class="glow">★</span> skills</a></li> -->
+        </ul>
     </div>
     <div class="header anim">
-        <h1>PORTFOLIO</h1>
+        <h1 style="font-family:kavoon">PORTFOLIO</h1>
     </div>
-    <div class="portfolio">
-        <h1 id="title">My Work</h1>
+    <div class="portfolio container-fluid row" style="font-family:Karma">
+        <h1 id="title" style="font-family:kavoon">My Work</h1>
         <hr>
         <div class="display">
+            <div class="products">
+                <figure>
+                    <a href="#.png" target="blank"><img src="css/images/audiobot.png" class="pic" alt="pic"></a>
+                    <div class="text">
+                        <h1>AI Audio Bot (2024)</h1>
+                        <figcaption>Simple AI Audio Bot full-stack application built with React.js, Node.js, and OpenAI
+                        </figcaption>
+                        <a target="_blank"
+                            href="https://github.com/KaylaNg1/AI-AudioBot/tree/main"><button>GITHUB</button></a>
+                    </div>
+                </figure>
+            </div>
+            <div class="products">
+                <figure>
+                    <a href="#.png" target="blank"><img src="css/images/pgmap1.png" class="pic" alt="pic"></a>
+                    <div class="text">
+                        <h1>PokemonGOCaml (2023)</h1>
+                        <figcaption>PokemonGOCaml is a pokemon inspired game, utilizing the functional programming
+                            language OCaml and libraries such as Raylib and Raygui. Users are able to explore maps,
+                            catch different types of pokemon, and level up!
+                        </figcaption>
+                        <a target="_blank"
+                            href=""><button>GITHUB</button></a>
+                    </div>
+                </figure>
+            </div>
             <div class="products">
                 <figure>
                     <a href="#.png" target="blank"><img src="css/images/bookifly.png" class="pic" alt="pic"></a>
                     <div class="text">
                         <h1>Bookifly (2023)</h1>
-                        <figcaption> Bookifly is a book organization & management web application. Built w/ 
-                            Django framework, Bookifly utilizes databases and APIs to display and store book information. 
-                            Users are able to save books into lists (Want To Read, Currently Reading, Read), rate books, explore the 
-                            NYT bestselling lists, and more! This project is currently still in progress of being completed
+                        <figcaption> Bookifly is a book organization & management web application. Built w/
+                            Django framework, Bookifly utilizes databases and APIs to display and store book
+                            information.
+                            Users are able to save books into lists (Want To Read, Currently Reading, Read), rate books,
+                            explore the
+                            NYT bestselling lists, and more! This project is currently still in progress of being
+                            completed
                         </figcaption>
                         <a target="_blank"
                             href="https://drive.google.com/file/d/1tAkMuXY1LCiutrQ_2-bbBInRB1HHkFUq/view?usp=sharing"><button>DEMO</button></a>
@@ -49,7 +86,7 @@
                         <h1>Weather Forecast Web App (2023)</h1>
                         <figcaption>Web application that implements the Forecast Weather API from WeatherAPI.com. Users
                             are able to input any city of their choosing into the search bar and are given the current
-                            temperature, forecast, humidity, and more along with the local time/date of the input.
+                            temperature, forecast, humidity, and more along with the local time/date of the input
                         </figcaption>
                         <a target="_blank"
                             href="https://github.com/KaylaNg1/WeatherForecastWebApp"><button>GITHUB</button></a>
@@ -65,7 +102,7 @@
                         <figcaption>For my final semester of senior year, I shifted gears towards learning Python. Using
                             my newfound basic knowledge, I followed a tutorial to make a basic AI/Scripted chat bot.
                             Carl is capable of answering certain phrases and playing games such as Bingo and Guess the
-                            Number.</figcaption>
+                            Number</figcaption>
                         <a target="_blank"
                             href="https://drive.google.com/file/d/1SyenGpBZdTBb1UFYLPlPC7EEaIJj7Vyo/view?usp=sharing"><button>TED
                                 TALK</button></a>
@@ -82,7 +119,7 @@
                             Invent, a fellowship offered to high school students that allows them to experience solving
                             real world problems through technological solutions. My team and I were partnered up with a
                             local fire department and created a smart fire system prototype, utilizing an 2 arduinos and
-                            numerous sensors to detect temperature change, smoke and gas.</figcaption>
+                            numerous sensors to detect temperature change, smoke and gas</figcaption>
                         <a target="_blank"
                             href="https://drive.google.com/file/d/1ZqqZxF_0ny9AMLx2qTPYhdjPlrvk4nJ4/view?usp=sharing"><button>DEMO</button></a>
                     </div>
@@ -98,7 +135,7 @@
                             hoped to utilize an EEG headband to analyze brain waves and integrate our findings into a
                             software application
                             Due to lack of mentorship and limited documentation, we weren't able to get far. However, we
-                            did gain a lot of knowledge related to the subject.
+                            did gain a lot of knowledge related to the subject
                         </figcaption>
                         <a target="_blank"
                             href="https://docs.google.com/presentation/d/1zaPDM_TQxicJXCq83eO6_5gQUluXGWa6ikTsgPuECco/edit?usp=sharing"><button>PRESENTATION</button></a>
@@ -113,7 +150,7 @@
                         <h1>FRC Software Code (2020-2022)</h1>
                         <figcaption>During the 2019-2020 season, I programmed the code for the Color Panel utilizing a
                             color sensor and arm motor. For the 2022 season game Rapid React, I programmed the robot's
-                            autonomous code implementing PID and analyzing encoder data on Phoenix Tuner.</figcaption>
+                            autonomous code implementing PID and analyzing encoder data on Phoenix Tuner</figcaption>
                         <a target="_blank"
                             href="https://github.com/KaylaNg1/infiniterecharge/blob/master/src/main/java/frc/robot/subsystems/ControlPanel.java"><button>GITHUB
                                 2020</button></a>
@@ -130,7 +167,7 @@
                     <div class="text">
                         <h1>Personal Website (2021)</h1>
                         <figcaption>My first Personal Website built from the bottom up using HTML and CSS. Includes my
-                            resume, projects and an about me page.</figcaption>
+                            resume, projects and an about me page</figcaption>
                         <a target="_blank"
                             href="https://drive.google.com/file/d/191zmGjMD7hRmGK-lagn6L9MDa1HWmeC1/view?usp=sharing"><button>DEMO</button></a>
                     </div>
@@ -144,7 +181,7 @@
                         <h1>Target Finder (2021)</h1>
                         <figcaption>A Javascript project made on Code.org. Using the Code.org Target library, I
                             co-programmed this app where when a user enters their state, they are able to see all the
-                            Targets in that state.</figcaption>
+                            Targets in that state</figcaption>
                         <a target="_blank"
                             href="https://drive.google.com/file/d/12W6qiTbGAp7fCxMXfNqraegoAOvie51c/view?usp=sharing"><button>DEMO</button></a>
                     </div>
@@ -157,7 +194,7 @@
                     <div class="text">
                         <h1>BlackJack (2020)</h1>
                         <figcaption>A C# programmed game created in Visual Studio. A simulation of the popular gambling
-                            game Black Jack where users play against a computer.</figcaption>
+                            game Black Jack where users play against a computer</figcaption>
                         <a target="_blank" href="https://github.com/KaylaNg1/BlackJackC"><button>GITHUB</button></a>
                     </div>
                 </figure>
@@ -169,7 +206,7 @@
                     <div class="text">
                         <h1>Unity Game (2019)</h1>
                         <figcaption>A designed Unity game using Unity's 3-D package kit. Users can fight monsters and
-                            explore the natural, mountain-filled landscape.</figcaption>
+                            explore the natural, mountain-filled landscape</figcaption>
                     </div>
                 </figure>
             </div>
@@ -181,7 +218,7 @@
                         <h1>Mission Stork (2018)</h1>
                         <figcaption>A Visual Basic programmed game made with self-created pixel graphics. A stork is
                             sent on a mission to deliver a special package and must overcome 3 different obstacle-filled
-                            levels to win and deliver the package.</figcaption>
+                            levels to win and deliver the package</figcaption>
                         <a target="_blank"
                             href="https://drive.google.com/file/d/1IaTVr1vZoZXqv8oEBMI6y4fytoqRRtga/view?usp=sharing4"><button>GITHUB</button></a>
                     </div>

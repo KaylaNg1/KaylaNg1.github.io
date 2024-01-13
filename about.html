@@ -7,27 +7,34 @@
     <title>Kayla Ng</title>
     <link rel="icon" type="image/x-icon" href="css/images/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bagel+Fat+One">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=maitree:wght@WEIGHT_OR_RANGE&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karma:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kavoon&family=Khand:wght@700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/about.css" />
 </head>
 
-<body>
-    <div class="topNav">
-        <a id="home" href="index.html">HOME</a>
-        <a id="about-me-page" href="about.html">ABOUT ME</a>
-        <a id="portfolio-page" href="portfolio.html">PORTFOLIO</a>
+<body style="font-family:karma">
+    <div class="overlay">
+        <div class="brand">
+            <a href="#">Kayla Ng</a>
+        </div>
+        <ul class="navBar">
+            <li><a href="index.html"><span class="glow">★</span> home</a></li>
+            <li><a href="#" id="aboutme"><span class="glow">★</span> about me</a></li>
+            <li><a href="portfolio.html"><span class="glow">★</span> portfolio</a></li>
+            <!-- <li><a href="#link4"><span class="glow">★</span> skills</a></li> -->
+        </ul>
     </div>
-    <div class="header anim">
-        <h1 id="name"><span>KAYLA</span> NG</h1>
+    <div class="container-fluid header anim">
+        <h1 id="name" style="font-family:kavoon"><span>ABOUT</span> ME</h1>
     </div>
-    <div class="aboutme">
-        <h1 id="title">A Bit About Me!</h1>
+    <div class="container-fluid aboutme">
+        <h1 id="title" style="font-family:kavoon">A Bit About Me!</h1>
         <div class="info">
-            <h3>Hello, hello! My name is Kayla Ng and I am a Sophomore
-                studying Computer Science at <span>Cornell University's College of
-                    Engineering</span>.
+            <h3>Hello, hello! My name is Kayla Ng and I am a sophomore at Cornell University studying Computer Science
+                with a minor in Philosophy.
                 <br>
                 <br>I first discovered my passion for Computer Science during my
                 Freshman Year of High School when I took my first CS class ever: Intro to Visual Basic.
@@ -47,165 +54,170 @@
             </h3>
         </div>
     </div>
-    <div class="info2">
-        <h1>Resume</h1>
-        <div class="resume">
-            <div class="education">
-                <h2>Education</h2>
-                <hr>
-                <div class="half1">
-                    <h3>Cornell University</h3>
-                    <h3 id="sub" style="font-style:italic">Bachelor of Science, Computer Science</h3>
-                </div>
-                <div class="half2">
-                    <h3>Ithaca, NY</h3>
-                    <h3 id="sub" style="font-style:italic">May 2026</h3>
-                </div>
-                <div class="other">
-                    <h3>Relevant Coursework: <span style="font-style:italic">Data Structures & Functional Programming, Discrete Structures, Object-Oriented
-                            Programming & Data Structures, Data Science
-                            for Engineers, Introduction to Programming with Python </span></h3>
-                    <h3>Awards: <span style="font-style:italic">National Cyber Scholar, NCWIT Hudson Valley Regional
-                            Finalist, Rochester Institute of Technology Creativity and Innovation Award</span></h3>
-                    <h3>Technical Skills: <span style="font-style:italic">Python, Java, CSS, HTML, Javascript, OCaml</span>
-                    </h3>
-                    <h3>Interests: <span style="font-style:italic">Mobile Health, Robotics, Software Development,
-                            Machine Learning, Autonomous Programming, Computer Vision</span></h3>
-                </div>
+    <div class="container-fluid resume">
+        <h1 style="font-family:kavoon">Resume</h1>
+        <div class="experience">
+            <h2>Experience</h2>
+            <hr>
+            <div class="half1">
+                <h3>Cornell University</h3>
+                <h3 id="sub" style="font-style:italic">Incoming CS 1112 Consultant</h3>
+                <ul>
+                    <li>Consultant for CS 1112, a course introducing new programmers to computing from an engineering
+                        and science perspective, with a focus on Python</li>
+                    <li>Actively participated in weekly planning meetings and coordinated consulting activities to
+                        support and guide students</li>
+                </ul>
             </div>
-            <div class="experience">
-                <h2>Experience</h2>
-                <hr>
-                <div class="half1">
-                    <h3>Cornell University Unmanned Air Systems</h3>
-                    <h3 id="sub" style="font-style:italic">Autopilot Subteam Member</h3>
-                    <ul>
-                        <li>Programmed an airdrop module for the AUVSI SUAS Competition airdrop task: implemented
-                            frontend and backend functionality to create new servo motor waypoints.</li>
-                        <li>Designed a waypoint modal with peers on our frontend that automatically generates waypoints
-                            onto our mapping system based on user input.</li>
-                    </ul>
-                </div>
-                <div class="half2">
-                    <h3>Ithaca, NY</h3>
-                    <h3 id="sub" style="font-style:italic">October 2022 - Present</h3>
-                </div>
-
-                <div class="half1">
-                    <h3>SO BOTZ FRC Team 6911</h3>
-                    <h3 id="sub" style="font-style:italic">Project Manager/Captain</h3>
-                    <ul>
-                        <li>Managed a group of 30-40 students working to build, program, and fund an industrial sized
-                            robot for competition within a 2 month period.</li>
-                        <li>Collaborated and communicated daily with experts in fields ranging from engineering, social
-                            media, school administration and sponsors.</li>
-                        <li>Generated game strategy through analysis of competition scouting data.</li>
-                        <li>Programmed the 2022 competition season’s autonomous program with PID loop implementations
-                            and encoder data as well as the 2020 competition season’s color spinner code that utilized a
-                            color sensor and arm motor. </li>
-                    </ul>
-                </div>
-                <div class="half2">
-                    <h3>Tappan, NY</h3>
-                    <h3 id="sub" style="font-style:italic">September 2018 - June 2022</h3>
-                </div>
+            <div class="half2">
+                <h3>Ithaca, NY</h3>
+                <h3 id="sub" style="font-style:italic">Jan 2024 - Present</h3>
             </div>
-            <div class="leadership">
-                <h2>Leadership & Activities</h2>
-                <hr>
-                <div class="half1">
-                    <h3>Computer Science Honor Society</h3>
-                    <h3 id="sub" style="font-style:italic">President, Secretary</h3>
-                    <ul>
-                        <li>Created Code Con, an annual fair held during CSED week aimed at educating and introducing
-                            middle school students within my community to the fields of Computer Science.</li>
-                    </ul>
-                </div>
-                <div class="half2">
-                    <h3>Tappan, NY</h3>
-                    <h3 id="sub" style="font-style:italic">September 2020 - June 2022</h3>
-                </div>
-
-                <div class="half1">
-                    <h3>Programming Club</h3>
-                    <h3 id="sub" style="font-style:italic">Vice President</h3>
-                    <ul>
-                        <li>Co-created a Hackathon for students of all coding experience available in both Java and
-                            Python languages as well as worked as a CS tutor for beginner Java and Python classes.</li>
-                    </ul>
-                </div>
-                <div class="half2">
-                    <h3>Tappan, NY</h3>
-                    <h3 id="sub" style="font-style:italic">September 2018 - June 2022</h3>
-                </div>
+            <div class="half1">
+                <h3>Cornell University Unmanned Air Systems</h3>
+                <h3 id="sub" style="font-style:italic">Autopilot Subteam Member</h3>
+                <ul>
+                    <li>Lead development of path-planning module, integrating plane auto-transition and autonomous
+                        airdrop functionalities into flight path that enhanced operational efficiency by 33% and
+                        drastically reduced need for human intervention (Python, Svelte, JavaScript)</li>
+                    <li>Collaboratively developed and programmed an airdrop module that sends signals to the aircraft’s
+                        flight controller. Enabled seamless opening of bay doors and dropping of water bottles onto
+                        designated targets with 80% accuracy (Python, Docker, MAVProxy, ArduPilot)</li>
+                    <li>Worked with the Imaging Subteam to implement target module that efficiently extracts relevant
+                        data from endpoint, generates waypoints, and displays airdrop targets on the Ground Control
+                        Station (Python, Svelte, JavaScript)</li>
+                </ul>
             </div>
-            <div class="projects">
-                <h2>Personal Projects</h2>
-                <hr>
-                <div class="half1">
-                    <h3>Bookifly</h3>
-                    <h3 id="sub" style="font-style:italic">Full-stack Developer</h3>
-                    <ul>
-                        <li>Developing a full stack web application for book organization. Goal functionality includes
-                            reviewing/rating books, book journaling, live-updates/reminders on book releases, and more.
-                        </li>
-                        <li>Implements Django framework, Postgresql, as well as APIs (Google Books, NYTimes)
-                        </li>
-                    </ul>
-                </div>
-                <div class="half2">
-                    <h3>Tappan, NY</h3>
-                    <h3 id="sub" style="font-style:italic">June 2023 - Present</h3>
-                </div>
+            <div class="half2">
+                <h3>Ithaca, NY</h3>
+                <h3 id="sub" style="font-style:italic">Oct 2022 - Present</h3>
+            </div>
 
-                <div class="half1">
-                    <h3>Terminal Chat Bot</h3>
-                    <h3 id="sub" style="font-style:italic">Software Developer</h3>
-                    <ul>
-                        <li>Followed Patrick Loeber’s Youtube Tutorials to learn about PyTorch and the basics of NLP concepts</li>
-                        <li>Programmed a chat bot with PyTorch accessible via terminal utilizing NLP techniques such as tokenization and stemming</li>
-                    </ul>
-                </div>
-                <div class="half2">
-                    <h3>Tappan, NY</h3>
-                    <h3 id="sub" style="font-style:italic">June 2023</h3>
-                </div>
-
-                <div class="half1">
-                    <h3>Real Time Weather Forecast Web App</h3>
-                    <h3 id="sub" style="font-style:italic">Frontend Developer</h3>
-                    <ul>
-                        <li>Created a web app that showcases current temperature, forecast, humidity, and temperature
-                            ‘feel’. Utilizes the Forecast API developed by WeatherAPI.com. </li>
-                    </ul>
-                </div>
-                <div class="half2">
-                    <h3>Tappan, NY</h3>
-                    <h3 id="sub" style="font-style:italic">May 2023</h3>
-                </div>
-
-                <div class="half1">
-                    <h3>Carl the Cowtastic Audio Bot</h3>
-                    <h3 id="sub" style="font-style:italic">Software Developer</h3>
-                    <ul>
-                        <li>Developed a basic audio bot following online documentation. Implemented functionality where
-                            the user can play BINGO and Guess the Number with the bot using certain vocal commands.
-                        </li>
-                    </ul>
-                </div>
-                <div class="half2">
-                    <h3>Orangeburg, NY</h3>
-                    <h3 id="sub" style="font-style:italic">April 2022 - June 2022</h3>
-                </div>
+            <div class="half1">
+                <h3>SO BOTZ FRC Team 6911</h3>
+                <h3 id="sub" style="font-style:italic">Project Manager/Captain</h3>
+                <ul>
+                    <li>Managed a group of 40 students in building, programming, and funding an industrial sized robot
+                        for competition. Team productivity increased by 55%</li>
+                    <li>Maintained regular collaboration and communication with school administration, sponsors,
+                        students, and mentors</li>
+                    <li>Programmed autonomous robot functionality, implementing intaking and shooting capabilities for
+                        ball manipulation. Incorporated PID loop control and encoder data for precise ball handling and
+                        90% shooting accuracy (Java)</li>
+                </ul>
+            </div>
+            <div class="half2">
+                <h3>Tappan, NY</h3>
+                <h3 id="sub" style="font-style:italic">Sep 2018 - June 2022</h3>
             </div>
         </div>
+        <div class="projects">
+            <h2>Personal Projects</h2>
+            <hr>
+            <div class="half1">
+                <h3>AI Audio Chat Bot |<span class="languages"> JavaScript, OpenAI, Node.js, React.js</span></h3>
+                <ul>
+                    <li>Developed and implemented endpoints to efficiently handle data from front end, ensuring seamless
+                        communication and data processing
+                    </li>
+                    <li>Utilized OpenAI APIs to implement chat bot feature, generating intelligent responses from user
+                        input
+                    </li>
+                </ul>
+            </div>
+            <div class="half2">
+                <h3>Tappan, NY</h3>
+                <h3 id="sub" style="font-style:italic">Jan 2024 - Present</h3>
+            </div>
+            <div class="half1">
+                <h3>Pokemon GOCaml |<span class="languages"> OCaml, Raylib</span></h3>
+                <ul>
+                    <li>Collaborated with three peers to design and program a Pok ́emon-inspired game in OCaml
+                    </li>
+                    <li>Implemented Raylib and RayGui libraries to design and develop a graphical user interface (GUI)
+                        for the project
+                    </li>
+                    <li>Creatively designed and developed all pixel graphic elements for the project</li>
+                </ul>
+            </div>
+            <div class="half2">
+                <h3>Ithaca, NY</h3>
+                <h3 id="sub" style="font-style:italic">Oct 2023 - Dec 2023</h3>
+            </div>
+            <div class="half1">
+                <h3>Bookifly |<span class="languages"> Python, HTML/CSS, JavaScript, Django, PostgreSQL</span></h3>
+                <ul>
+                    <li>Developing full-stack web application for online book management utilizing the Django framework
+                    </li>
+                    <li>Designed and implemented functionality for account creation, book review and rating system, and
+                        book search
+                    </li>
+                    <li>Implemented AJAX calls to Google Books and NYTimes APIs to fetch and display data within the web
+                        application</li>
+                    <li>Utilized PostgreSQL to securely store and retrieve book and user data within databases</li>
+                </ul>
+            </div>
+            <div class="half2">
+                <h3>Tappan, NY</h3>
+                <h3 id="sub" style="font-style:italic">June 2023 - Present</h3>
+            </div>
+
+            <div class="half1">
+                <h3>Terminal Chat Bot |<span class="languages"> Python, Pytorch</span></h3>
+                <ul>
+                    <li>Programmed PyTorch-based AI chat bot, incorporating natural language processing techniques</li>
+                    <li>Developed and implemented a Feed Forward Neural Net with two hidden layers to tackle complex
+                        tasks and enhance model performance</li>
+                </ul>
+            </div>
+            <div class="half2">
+                <h3>Tappan, NY</h3>
+                <h3 id="sub" style="font-style:italic">June 2023</h3>
+            </div>
+
+        </div>
+        <div class="education">
+            <h2>Education</h2>
+            <hr>
+
+            <div class="half1">
+                <h3>Cornell University</h3>
+                <h3 id="sub" style="font-style:italic">Bachelor of Science, Computer Science</h3>
+            </div>
+            <div class="half2">
+                <h3>Ithaca, NY</h3>
+                <h3 id="sub" style="font-style:italic">May 2026</h3>
+            </div>
+            <div class="other">
+                <h3>Relevant Coursework: <span style="font-style:italic">Intro to Computer Vision, Intro to Machine
+                        Learning, Intro to Analysis of Algorithms,
+                        Data Structures and Functional Programming, Discrete Structures, Object Oriented Programming and
+                        Data
+                        Structures, Data Science for Engineers, Introduction to Programming with Python
+                    </span></h3>
+                <h3>Awards: <span style="font-style:italic">National Cyber Scholar, NCWIT Hudson Valley Regional
+                        Finalist, Rochester Institute of Technology Creativity and Innovation Award</span></h3>
+                <h3>Interests: <span style="font-style:italic">Mobile Health, Robotics, Software Development,
+                        Machine Learning, Autonomous Programming, Computer Vision</span></h3>
+            </div>
+        </div>
+        <div class="skills">
+            <h2>Technical Skills</h2>
+            <hr>
+            <div class = "info">
+                <h3>Langauges<span class = "sub-par">: Python, Java, HTML/CSS, JavaScript, OCaml, C♯</span></h3>
+                <h3>Developer Tools<span class = "sub-par">: VS Code, Eclipse, IntelliJ</span></h3>
+                <h3>Technologies/Frameworks<span class = "sub-par">: Linux, GitHub, Django, PyTorch, React.js, Bootstrap, .NET</span></h3>
+            </div>
+
+        </div>
     </div>
-    <div class="info3">
-        <h1>Want To See More?</h1>
+    <div class="info3" style="font-family:karma">
+        <h1 style="font-family:kavoon">Want To See More?</h1>
         <div class="more">
             <h2>Check out some of my past projects!</h2>
             <div class="button">
-                <a href="portfolio.html"><button>Portfolio</button></a>
+                <a href="portfolio.html"><button style="font-family:karma">Portfolio</button></a>
             </div>
         </div>
     </div>
