@@ -185,7 +185,7 @@ li a::after {
     height:100vh;
   }
   html{
-    overflow-y: visible;
+    overflow-y: visible !important;
   }
   li{
     width:100%;

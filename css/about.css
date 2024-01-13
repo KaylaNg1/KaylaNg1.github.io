@@ -57,8 +57,8 @@ body {
         padding: 14px 16px;
         margin-left: 10px;
         margin-right: 10px;
-        text-decoration: none;
-        color: #EFF6E0;
+        text-decoration: none !important;
+        color: #EFF6E0 !important;
         font-size: 20px;
     }
 
@@ -79,7 +79,7 @@ body {
 
     li a:hover .glow {
         color: #EFF6E0;
-        text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+        text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc !important;
     }
 
     li a::after {
@@ -90,7 +90,7 @@ body {
 
     #aboutme .glow {
         color: #EFF6E0;
-        text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+        text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc !important;
     }
 }
 
