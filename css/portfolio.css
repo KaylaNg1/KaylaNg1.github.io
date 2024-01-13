@@ -45,43 +45,39 @@ body {
     overflow: hidden;
 }
 
-.navBar {
-    li {
-        display: inline-block;
-    }
+ li {
+    display: inline-block;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #EFF6E0;
+    font-size: 20px;
+  }
+  
+  a :link, a:visited, a:hover, a:active{
+    color: #EFF6E0;
+    text-decoration: none;
+  }
+  
+  li a:hover .glow {
+    color: #EFF6E0;
+    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+  }
+  
+  li a::after {
+    content: ★;
+  }
 
-    li a {
-        display: block;
-        text-align: center;
-        padding: 14px 16px;
-        margin-left: 10px;
-        margin-right: 10px;
-        text-decoration: none;
-        color: #EFF6E0;
-        font-size: 20px;
-    }
-    
-    a :link, a:visited, a:hover, a:active{
-        color: #EFF6E0;
-        text-decoration: none;
-    }
-
-    li a:hover .glow {
-        color: #EFF6E0;
-        text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
-    }
-
-    li a::after {
-        content: ★;
-        color: #EFF6E0;
-        text-decoration: none;
-    }
-
-    #portfolio .glow {
-        color: #EFF6E0;
-        text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
-    }
-}
+  #portfolio .glow{
+    color: #EFF6E0;
+    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+  }
 
 .header {
     position: relative;
