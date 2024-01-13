@@ -66,7 +66,7 @@ body {
         color: #EFF6E0;
         text-decoration: none;
     }
-    
+
     li a:hover .glow {
         color: #EFF6E0;
         text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc !important;
@@ -342,6 +342,22 @@ button:hover {
 @media only screen and (max-width: 530px) {
     .navBar li{
         width:100%;
+    }
+
+    a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-decoration: none !important;
+        color: #EFF6E0 !important;
+        font-size: 20px;
+    }
+
+    a :link, a:visited, a:hover, a:active{
+        color: #EFF6E0;
+        text-decoration: none;
     }
 
     .header {
@@ -636,10 +652,6 @@ button:hover {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .topNav a {
-        font-size: 1.3em;
-    }
-
     .header {
         margin-top: 30px;
         height: 650px;
