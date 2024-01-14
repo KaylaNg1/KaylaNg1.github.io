@@ -1,31 +1,32 @@
-@import url("https://fonts.cdnfonts.com/css/pecita");
-@import url("https://fonts.cdnfonts.com/css/karma");
+@import "https://fonts.cdnfonts.com/css/pecita";
+
+@import "https://fonts.cdnfonts.com/css/karma";
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth
 }
 
 body {
     background-color: #01161e;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow-x: hidden
 }
 
 .overlay {
     position: relative;
     width: 100%;
-    display: inline-block;
+    display: inline-block
 }
 
 .brand {
     position: relative;
     width: 100%;
-    text-align: center;
+    text-align: center
 }
 
 .brand a {
@@ -34,7 +35,7 @@ body {
     z-index: 2;
     color: #EFF6E0;
     text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
-    text-decoration: none;
+    text-decoration: none
 }
 
 .navBar {
@@ -42,14 +43,14 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    overflow: hidden;
+    overflow: hidden
 }
 
- li {
-    display: inline-block;
-  }
-  
-  li a {
+li {
+    display: inline-block
+}
+
+li a {
     display: block;
     text-align: center;
     padding: 14px 16px;
@@ -57,38 +58,38 @@ body {
     margin-right: 10px;
     text-decoration: none;
     color: #EFF6E0;
-    font-size: 20px;
-  }
-  
-  a :link, a:visited, a:hover, a:active{
-    color: #EFF6E0;
-    text-decoration: none;
-  }
-  
-  li a:hover .glow {
-    color: #EFF6E0;
-    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
-  }
-  
-  li a::after {
-    content: ★;
-  }
+    font-size: 20px
+}
 
-  #portfolio .glow{
+a :link,
+a:visited,
+a:hover,
+a:active {
     color: #EFF6E0;
-    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
-  }
+    text-decoration: none
+}
+
+li a:hover .glow {
+    color: #EFF6E0;
+    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc
+}
+
+li a::after {
+    content: ★
+}
+
+#portfolio .glow {
+    color: #EFF6E0;
+    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc
+}
 
 .header {
     position: relative;
     text-align: center;
     color: #6D6875;
-    background: url('images/newCollage.jpg') no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
+    background: url(images/newCollage.jpg) no-repeat center center;
     background-size: contain;
-    margin-top: -50px;
+    margin-top: -50px
 }
 
 .header h1 {
@@ -96,39 +97,39 @@ body {
     color: #124559;
     top: 45%;
     -webkit-text-stroke: 1px #598392;
-    text-shadow: 4px 2px 2px #AEC3B0;
+    text-shadow: 4px 2px 2px #AEC3B0
 }
 
 .portfolio {
     position: relative;
     width: 100%;
-    margin:auto;
+    margin: auto
 }
 
 .portfolio h1 {
     color: #AEC3B0;
-    padding: 20px;
+    padding: 20px
 }
 
 hr {
     height: 5px;
     border-width: 0;
     background-color: #AEC3B0;
-    width: 100%;
+    width: 100%
 }
 
 figure {
-    display: table;
+    display: table
 }
 
 figure img {
-    filter: grayscale(100%);
+    filter: grayscale(100%)
 }
 
-figure img:hover{
-    filter:grayscale(0%);
-    cursor:pointer;
-    transition:1.5s;
+figure img:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+    transition: 1.5s
 }
 
 .products {
@@ -136,13 +137,13 @@ figure img:hover{
     height: auto;
     text-align: center;
     clear: both;
-    display:inline-block;
+    display: inline-block
 }
 
 .products h1 {
     position: relative;
     width: 100%;
-    color: #AEC3B0;
+    color: #AEC3B0
 }
 
 .text {
@@ -150,32 +151,32 @@ figure img:hover{
     width: 100%;
     justify-content: center;
     align-items: center;
-    color: #EFF6E0;
+    color: #EFF6E0
 }
 
 .text h1 {
-    font-size: 25px;
+    font-size: 25px
 }
 
 .text button {
     margin-top: 20px;
     justify-content: center;
     text-align: center;
-    vertical-align:middle;
+    vertical-align: middle;
     border-radius: 25px;
     min-width: 120px;
-    max-width:150px;
+    max-width: 150px;
     min-height: 40px;
     font-size: 15px;
     border: 4px solid #AEC3B0;
     background-color: transparent;
     color: #EFF6E0;
-    font-family:"karma";
+    font-family: "karma"
 }
 
 button:hover {
     cursor: pointer;
-    animation: wiggle 3s linear infinite;
+    animation: wiggle 3s linear infinite
 }
 
 /* Keyframes */
@@ -183,32 +184,32 @@ button:hover {
 
     0%,
     7% {
-        transform: rotateZ(0);
+        transform: rotateZ(0)
     }
 
     15% {
-        transform: rotateZ(-15deg);
+        transform: rotateZ(-15deg)
     }
 
     20% {
-        transform: rotateZ(10deg);
+        transform: rotateZ(10deg)
     }
 
     25% {
-        transform: rotateZ(-10deg);
+        transform: rotateZ(-10deg)
     }
 
     30% {
-        transform: rotateZ(6deg);
+        transform: rotateZ(6deg)
     }
 
     35% {
-        transform: rotateZ(-4deg);
+        transform: rotateZ(-4deg)
     }
 
     40%,
     100% {
-        transform: rotateZ(0);
+        transform: rotateZ(0)
     }
 }
 
@@ -219,57 +220,57 @@ button:hover {
     display: table;
     /* auto minimum width, causing problem */
     grid-template-columns: 1fr 300px;
-
     /* fix: minimum width of 0 */
     grid-template-columns: minmax(0, 1fr) 300px;
     justify-content: center;
     text-align: center;
-    vertical-align:middle;
-    color: #FFCDB2;
+    vertical-align: middle;
+    color: #FFCDB2
 }
 
 .pic {
     width: 100%;
     height: 200px;
-    object-fit: cover;
+    object-fit: cover
 }
 
 figcaption {
-    text-align: center;
+    text-align: center
 }
 
 .anim {
     opacity: 0;
     transform: translateY(30px);
-    animation: moveup 0.8s linear forwards;
+    animation: moveup .8s linear forwards
 }
 
 @keyframes moveup {
     100% {
         opacity: 1;
-        transform: translateY(0px);
+        transform: translateY(0px)
     }
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 530px) {
-    .navBar li{
-        width: 100%;
+    .navBar li {
+        width: 100%
     }
+
     .header {
-        margin:0;
-        padding:0;
-        background-size:cover;
-        height:400px;
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+        height: 400px
     }
 
     .header h1 {
         font-size: 60px;
-        top: 40%;
+        top: 40%
     }
 
     #title {
-        font-size: 40px;
+        font-size: 40px
     }
 }
 
@@ -277,46 +278,45 @@ figcaption {
 
     /* Smaller Screen Prioirty */
     .topNav a {
-        font-size: 1em;
+        font-size: 1em
     }
 
     .header {
         height: 400px;
-        margin-top: 50px;
-        /* background-color:green; */
+        margin-top: 50px
+            /* background-color:green; */
     }
 
     .header h1 {
         font-size: 60px;
-        top: 40%;
+        top: 40%
     }
 
     #title {
-        font-size: 40px;
+        font-size: 40px
     }
 }
-
 
 @media only screen and (max-width:360px) {
 
     /* Smaller Screen Prioirty */
     .topNav a {
-        font-size: 1em;
+        font-size: 1em
     }
 
     .header {
         height: 400px;
-        margin-top: 50px;
-        /* background-color:green; */
+        margin-top: 50px
+            /* background-color:green; */
     }
 
     .header h1 {
         font-size: 60px;
-        top: 40%;
+        top: 40%
     }
 
     #title {
-        font-size: 40px;
+        font-size: 40px
     }
 
     .products {
@@ -325,83 +325,82 @@ figcaption {
         text-align: center;
         clear: both;
         float: left;
-        padding-right: 10px;
+        padding-right: 10px
     }
 
     .pic {
         width: 260px;
         height: 160px;
-        object-fit: cover;
+        object-fit: cover
     }
-
 }
 
 @media only screen and (min-width: 530px) {
     .topNav a {
-        font-size: 1.1em;
+        font-size: 1.1em
     }
 
     .header {
         height: 400px;
-        margin-top: 60px;
+        margin-top: 60px
     }
 
     .header h1 {
         font-size: 70px;
-        top: 35%;
+        top: 35%
     }
 
     #title {
-        font-size: 40px;
+        font-size: 40px
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .topNav a {
-        font-size: 1.2em;
+        font-size: 1.2em
     }
 
     .header {
         height: 450px;
-        margin-top: 60px;
+        margin-top: 60px
     }
 
     .header h1 {
         font-size: 90px;
-        margin-top: 0;
+        margin-top: 0
     }
 
     #title {
-        font-size: 50px;
+        font-size: 50px
     }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
     .pic {
         width: 100%;
         height: 50vh;
-        object-fit: cover;
+        object-fit: cover
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .topNav a {
-        font-size: 1.2em;
+        font-size: 1.2em
     }
 
     .header {
         height: 400px;
-        margin-top: 80px;
+        margin-top: 80px
     }
 
     .header h1 {
-        font-size: 110px;
+        font-size: 110px
     }
 
     #title {
-        font-size: 60px;
+        font-size: 60px
     }
 
     .display {
@@ -411,27 +410,27 @@ figcaption {
         display: grid;
         grid-template-columns: repeat(auto-fill, 350px);
         justify-content: center;
-        text-align: center;
+        text-align: center
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .topNav a {
-        font-size: 1.3em;
+        font-size: 1.3em
     }
 
     .header {
         margin-top: 40px;
-        height: 720px;
+        height: 720px
     }
 
     .header h1 {
-        font-size: 150px;
+        font-size: 150px
     }
 
     #title {
-        font-size: 70px;
+        font-size: 70px
     }
 
     .display {
@@ -441,6 +440,6 @@ figcaption {
         display: grid;
         grid-template-columns: repeat(auto-fill, 400px);
         justify-content: center;
-        text-align: center;
+        text-align: center
     }
 }

@@ -1,32 +1,34 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
-@import url('https://fonts.googleapis.com/css?family=Bagel+Fat+One');
-@import url("https://fonts.cdnfonts.com/css/pecita");
+@import "https://fonts.googleapis.com/css?family=Quicksand";
+
+@import "https://fonts.googleapis.com/css?family=Bagel+Fat+One";
+
+@import "https://fonts.cdnfonts.com/css/pecita";
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth
 }
 
 body {
     background-color: #01161e;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow-x: hidden
 }
 
 .overlay {
     position: relative;
     width: 100%;
-    display: inline-block;
+    display: inline-block
 }
 
 .brand {
     position: relative;
     width: 100%;
-    text-align: center;
+    text-align: center
 }
 
 .brand a {
@@ -35,7 +37,7 @@ body {
     z-index: 2;
     color: #EFF6E0;
     text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
-    text-decoration: none;
+    text-decoration: none
 }
 
 .navBar {
@@ -43,7 +45,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    overflow: hidden;
+    overflow: hidden
 }
 
 .navBar {
@@ -51,14 +53,14 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    overflow: hidden;
+    overflow: hidden
 }
 
- .navBar li {
-    display: inline-block;
-  }
-  
-  .navBar li a {
+.navBar li {
+    display: inline-block
+}
+
+.navBar li a {
     display: block;
     text-align: center;
     padding: 14px 16px;
@@ -66,45 +68,45 @@ body {
     margin-right: 10px;
     text-decoration: none;
     color: #EFF6E0;
-    font-size: 20px;
-  }
-  
-  a :link, a:visited, a:hover, a:active{
-    color: #EFF6E0;
-    text-decoration: none;
-  }
-  
-  .navBar li a:hover .glow {
-    color: #EFF6E0;
-    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
-  }
-  
-  .navBar li a::after {
-    content: ★;
-  }
+    font-size: 20px
+}
 
-  .navBar li #aboutmeLink .glow{
+a :link,
+a:visited,
+a:hover,
+a:active {
     color: #EFF6E0;
-    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
-  }
+    text-decoration: none
+}
+
+.navBar li a:hover .glow {
+    color: #EFF6E0;
+    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc
+}
+
+.navBar li a::after {
+    content: ★
+}
+
+.navBar li #aboutmeLink .glow {
+    color: #EFF6E0;
+    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc
+}
 
 .header {
     position: relative;
     text-align: center;
     color: #6D6875;
-    background: url('images/aboutme.png') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url(images/aboutme.png) no-repeat center center;
     background-size: cover;
-    margin-top: -50px;
+    margin-top: -50px
 }
 
 #name {
     color: #124559;
     width: auto;
     -webkit-text-stroke: 1px #598392;
-    text-shadow: 4px 2px 2px #AEC3B0;
+    text-shadow: 4px 2px 2px #AEC3B0
 }
 
 .aboutme {
@@ -114,20 +116,20 @@ body {
     background-color: #598392;
     padding: 10px;
     text-align: left;
-    margin-top:50px;
+    margin-top: 50px
 }
 
 .aboutme h1 {
     padding: 20px;
-    width: 100%;
+    width: 100%
 }
 
 .aboutme .info {
-    position:relative;
+    position: relative;
     padding-left: 20px;
     padding-right: 20px;
     text-align: left;
-    max-width: 60rem;
+    max-width: 60rem
 }
 
 .resume {
@@ -136,48 +138,48 @@ body {
     width: 100%;
     color: #AEC3B0;
     padding-bottom: 20px;
-    margin-top:-50px;
+    margin-top: -50px
 }
 
-.resume ul{
-    list-style-type:disc;
+.resume ul {
+    list-style-type: disc
 }
 
 .resume h1 {
     text-align: right;
     padding: 20px;
-    width: 100%;
+    width: 100%
 }
 
 .resume h2 {
     padding-left: 20px;
     float: left;
-    text-align: left;
+    text-align: left
 }
 
 .education {
     position: relative;
     width: 100%;
-    height: fit-content;
+    height: fit-content
 }
 
 hr {
     height: 5px;
     background-color: #EFF6E0;
-    width: 100%;
+    width: 100%
 }
 
 .half1 {
-    display:inline-block;
+    display: inline-block;
     max-width: 70%;
     text-align: left;
     height: auto;
     padding-left: 20px;
-    left:0;
+    left: 0
 }
 
 #whole {
-    width: 100%;
+    width: 100%
 }
 
 .half2 {
@@ -185,7 +187,7 @@ hr {
     text-align: right;
     padding-right: 20px;
     height: auto;
-    float:right;
+    float: right
 }
 
 .other {
@@ -193,29 +195,29 @@ hr {
     width: 100%;
     text-align: left;
     padding-left: 20px;
-    padding-right:20px;
+    padding-right: 20px
 }
 
 #sub {
-    margin-top: -10px;
+    margin-top: -10px
 }
 
 .experience,
 .leadership,
-.projects, .skills {
+.projects,
+.skills {
     position: relative;
     width: 100%;
-    height: auto;
+    height: auto
 }
 
-.skills .info{
-    padding:10px;
+.skills .info {
+    padding: 10px
 }
 
-.skills span{
-    font-style:italic;
+.skills span {
+    font-style: italic
 }
-
 
 .info3 {
     position: relative;
@@ -223,17 +225,17 @@ hr {
     display: flex;
     width: 100%;
     height: 300px;
-    color: #598392;
+    color: #598392
 }
 
 .info3 h1 {
     text-align: center;
-    top: 0px;
+    top: 0;
     width: 100%;
     position: absolute;
     padding: 20px;
     width: 100%;
-    height: auto;
+    height: auto
 }
 
 .more {
@@ -241,13 +243,13 @@ hr {
     width: 100%;
     justify-content: center;
     text-align: center;
-    bottom: 0;
+    bottom: 0
 }
 
 .info3 h2 {
     position: relative;
     text-align: center;
-    width: 100%;
+    width: 100%
 }
 
 .button {
@@ -258,7 +260,7 @@ hr {
     justify-content: center;
     text-align: center;
     padding-bottom: 20px;
-    text-decoration: none;
+    text-decoration: none
 }
 
 button {
@@ -273,29 +275,29 @@ button {
     font-size: 20px;
     background-color: transparent;
     border: 4px solid #598392;
-    text-decoration: none;
+    text-decoration: none
 }
 
 .button a {
-    text-decoration: none;
+    text-decoration: none
 }
 
 button:hover {
     cursor: pointer;
     animation: wiggle 3s linear infinite;
-    text-decoration: none;
+    text-decoration: none
 }
 
 .anim {
     opacity: 0;
     transform: translateY(30px);
-    animation: moveup 0.8s linear forwards;
+    animation: moveup .8s linear forwards
 }
 
 @keyframes moveup {
     100% {
         opacity: 1;
-        transform: translateY(0px);
+        transform: translateY(0px)
     }
 }
 
@@ -304,52 +306,52 @@ button:hover {
 
     0%,
     7% {
-        transform: rotateZ(0);
+        transform: rotateZ(0)
     }
 
     15% {
-        transform: rotateZ(-15deg);
+        transform: rotateZ(-15deg)
     }
 
     20% {
-        transform: rotateZ(10deg);
+        transform: rotateZ(10deg)
     }
 
     25% {
-        transform: rotateZ(-10deg);
+        transform: rotateZ(-10deg)
     }
 
     30% {
-        transform: rotateZ(6deg);
+        transform: rotateZ(6deg)
     }
 
     35% {
-        transform: rotateZ(-4deg);
+        transform: rotateZ(-4deg)
     }
 
     40%,
     100% {
-        transform: rotateZ(0);
+        transform: rotateZ(0)
     }
 }
 
 .anim {
     opacity: 0;
     transform: translateY(30px);
-    animation: moveup 0.8s linear forwards;
+    animation: moveup .8s linear forwards
 }
 
 @keyframes moveup {
     100% {
         opacity: 1;
-        transform: translateY(0px);
+        transform: translateY(0px)
     }
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 530px) {
-    .navBar li{
-        width:100%;
+    .navBar li {
+        width: 100%
     }
 
     a {
@@ -360,26 +362,29 @@ button:hover {
         margin-right: 10px;
         text-decoration: none !important;
         color: #EFF6E0 !important;
-        font-size: 20px;
+        font-size: 20px
     }
 
-    a :link, a:visited, a:hover, a:active{
+    a :link,
+    a:visited,
+    a:hover,
+    a:active {
         color: #EFF6E0;
-        text-decoration: none;
+        text-decoration: none
     }
 
     .header {
         height: 300px;
-        background: url('images/aboutme.png') no-repeat center center;
-        background-size: contain;
+        background: url(images/aboutme.png) no-repeat center center;
+        background-size: contain
     }
 
     #name {
-        font-size: 60px;
+        font-size: 60px
     }
 
     #name span {
-        margin-right: 20px;
+        margin-right: 20px
     }
 
     .info h3,
@@ -388,49 +393,49 @@ button:hover {
         font-size: 17px
     }
 
-    .languages{
-        font-size:15px;
+    .languages {
+        font-size: 15px
     }
 
     #title,
     .resume h1,
     .info3 h1 {
-        font-size: 40px;
+        font-size: 40px
     }
 
     .half1 {
-        padding-left: 10px;
+        padding-left: 10px
     }
 
     .other {
-        padding-left: 10px;
+        padding-left: 10px
     }
 
     .half2 {
-        padding-right: 10px;
+        padding-right: 10px
     }
 
     .resume h2 {
         padding-left: 10px;
-        font-size: 35px;
+        font-size: 35px
     }
 
     .info3 h2 {
-        font-size: 25px;
+        font-size: 25px
     }
 
     .info3 h1 {
-        margin-top: 0;
+        margin-top: 0
     }
 }
 
 @media only screen and (max-width:420px) {
     #name {
-        font-size: 60px;
+        font-size: 60px
     }
 
     #name span {
-        margin-right: 20px;
+        margin-right: 20px
     }
 
     .info h3,
@@ -439,62 +444,61 @@ button:hover {
         font-size: 15px
     }
 
-    .languages{
-        font-size:13px;
+    .languages {
+        font-size: 13px
     }
 
     #title,
     .resume h1,
     .info3 h1 {
-        font-size: 40px;
+        font-size: 40px
     }
 
     .half1 {
-        padding-left: 10px;
+        padding-left: 10px
     }
 
     .other {
-        padding-left: 10px;
+        padding-left: 10px
     }
 
     .half2 {
-        padding-right: 10px;
+        padding-right: 10px
     }
 
     .resume h2,
     .info3 h2 {
-        font-size: 20px;
+        font-size: 20px
     }
 
     .info3 h1 {
-        margin-top: 0;
+        margin-top: 0
     }
 
-    .aboutme{
-        margin-top: 30px;
+    .aboutme {
+        margin-top: 30px
     }
 
-    .resume{
-        margin-top: -30px;
+    .resume {
+        margin-top: -30px
     }
 }
 
 @media only screen and (min-width: 530px) {
-
     #name {
-        font-size: 70px;
+        font-size: 70px
     }
 
     #name span {
-        margin-right: 20px;
+        margin-right: 20px
     }
 
     .aboutme h3 {
-        margin-top: -40px;
+        margin-top: -40px
     }
 
     .resume h3 {
-        padding-left: 10px;
+        padding-left: 10px
     }
 
     .info h3,
@@ -503,54 +507,53 @@ button:hover {
         font-size: 17px
     }
 
-    .languages{
-        font-size:15px;
+    .languages {
+        font-size: 15px
     }
 
     #title,
     .resume h1,
     .info3 h1 {
-        font-size: 40px;
+        font-size: 40px
     }
 
     .resume h2 {
         font-size: 35px;
-        padding-left: 20px;
+        padding-left: 20px
     }
 
     .info3 h2 {
-        font-size: 25px;
+        font-size: 25px
     }
 
     .info3 h1 {
-        margin-top: 25px;
+        margin-top: 25px
     }
 
     .half2 {
-        padding-right: 20px;
+        padding-right: 20px
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
     .header {
         height: 400px;
         background-size: contain;
-        margin-top: 30px;
+        margin-top: 30px
     }
 
     #name {
         font-size: 90px;
-        margin-top: 0;
+        margin-top: 0
     }
 
     #name span {
-        margin-right: 20px;
+        margin-right: 20px
     }
 
     .resume h2 {
-        font-size: 30px;
+        font-size: 30px
     }
 
     .info h3,
@@ -559,38 +562,38 @@ button:hover {
         font-size: 20px
     }
 
-    .languages{
-        font-size:18px;
+    .languages {
+        font-size: 18px
     }
 
     #title,
     .resume h1,
     .info3 h1 {
-        font-size: 50px;
+        font-size: 50px
     }
 
     .half1 {
-        padding-left: 10px;
+        padding-left: 10px
     }
 
     .other {
-        padding-left: 10px;
+        padding-left: 10px
     }
 
     .half2 {
-        padding-right: 20px;
+        padding-right: 20px
     }
 
     .resume h2 {
-        font-size: 35px;
+        font-size: 35px
     }
 
     .info3 h2 {
-        font-size: 25px;
+        font-size: 25px
     }
 
     .info3 h1 {
-        margin-top: 0;
+        margin-top: 0
     }
 }
 
@@ -599,28 +602,27 @@ button:hover {
     .header {
         height: 400px;
         background-size: contain;
-        margin-top: 30px;
+        margin-top: 30px
     }
 
     #name {
         font-size: 110px;
-        margin-top: -10px;
+        margin-top: -10px
     }
 
     #name span {
-        margin-right: 20px;
+        margin-right: 20px
     }
 
     #title,
     .resume h1,
     .info3 h1 {
-        font-size: 60px;
+        font-size: 60px
     }
 
     .resume h2 {
-        font-size: 40px;
+        font-size: 40px
     }
-
 
     .info h3,
     .resume h3,
@@ -628,33 +630,32 @@ button:hover {
         font-size: 20px
     }
 
-    .languages{
-        font-size:18px;
+    .languages {
+        font-size: 18px
     }
 
-
     .half1 {
-        padding-left: 10px;
+        padding-left: 10px
     }
 
     .other {
-        padding-left: 10px;
+        padding-left: 10px
     }
 
     .half2 {
-        padding-right: 20px;
+        padding-right: 20px
     }
 
     .resume h2 {
-        font-size: 35px;
+        font-size: 35px
     }
 
     .info3 h2 {
-        font-size: 25px;
+        font-size: 25px
     }
 
     .info3 h1 {
-        margin-top: 0;
+        margin-top: 0
     }
 }
 
@@ -663,33 +664,33 @@ button:hover {
     .header {
         margin-top: 30px;
         height: 650px;
-        background-size: contain;
+        background-size: contain
     }
 
     #name {
-        margin-top: 0px;
-        font-size: 150px;
+        margin-top: 0;
+        font-size: 150px
     }
 
     #name span {
-        margin-right: 20px;
+        margin-right: 20px
     }
 
     .aboutme h3 {
-        margin-top: 0;
+        margin-top: 0
     }
 
     #title,
     .resume h1,
     .info3 h1 {
-        font-size: 70px;
+        font-size: 70px
     }
 
     .resume h2 {
-        font-size: 50px;
+        font-size: 50px
     }
 
     .half2 {
-        padding-right: 20px;
+        padding-right: 20px
     }
 }
