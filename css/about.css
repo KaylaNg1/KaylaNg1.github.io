@@ -47,42 +47,46 @@ body {
 }
 
 .navBar {
-    li {
-        display: inline-block;
-    }
-
-    a {
-        display: block;
-        text-align: center;
-        padding: 14px 16px;
-        margin-left: 10px;
-        margin-right: 10px;
-        text-decoration: none !important;
-        color: #EFF6E0 !important;
-        font-size: 20px;
-    }
-
-    a :link, a:visited, a:hover, a:active{
-        color: #EFF6E0;
-        text-decoration: none;
-    }
-
-    li a:hover .glow {
-        color: #EFF6E0;
-        text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc !important;
-    }
-
-    li a::after {
-        content: ★;
-        color: #EFF6E0;
-        text-decoration: none;
-    }
-
-    #aboutmeLink .glow {
-        color: #EFF6E0;
-        text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc !important;
-    }
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
 }
+
+ .navBar li {
+    display: inline-block;
+  }
+  
+  .navBar li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #EFF6E0;
+    font-size: 20px;
+  }
+  
+  a :link, a:visited, a:hover, a:active{
+    color: #EFF6E0;
+    text-decoration: none;
+  }
+  
+  .navBar li a:hover .glow {
+    color: #EFF6E0;
+    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+  }
+  
+  .navBar li a::after {
+    content: ★;
+  }
+
+  #aboutmeLink .glow{
+    color: #EFF6E0;
+    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+  }
 
 .header {
     position: relative;
@@ -133,6 +137,10 @@ body {
     color: #AEC3B0;
     padding-bottom: 20px;
     margin-top:-50px;
+}
+
+.resume ul{
+    list-style-type:disc;
 }
 
 .resume h1 {
