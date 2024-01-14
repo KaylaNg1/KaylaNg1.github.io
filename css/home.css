@@ -105,7 +105,8 @@ ul {
   margin: 0;
   padding: 0;
   text-align: center;
-  overflow: hidden
+  overflow: hidden;
+  z-index:2;
 }
 
 .brand {
@@ -159,6 +160,10 @@ li a::after {
 #home .glow {
   color: #EFF6E0;
   text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc
+}
+
+.home{
+  z-index:1;
 }
 
 @media (max-width: 767px) {
